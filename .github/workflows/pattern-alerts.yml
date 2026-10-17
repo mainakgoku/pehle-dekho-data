@@ -1,0 +1,35 @@
+name: pattern-alerts
+
+# the background half of the pattern alerts: the cloud scans, so the phone
+# does not have to be awake. Hourly through the Indian trading day.
+
+on:
+  schedule:
+    # every hour, 09:00-15:00 IST = 03:30-09:30 UTC, Mon-Fri
+    - cron: '30 3-9 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Scan for chart patterns
+        run: python tools/collect_patterns.py
+      - name: Commit the alerts
+        run: |
+          git config user.name  "pattern-bot"
+          git config user.email "pattern-bot@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "no new patterns"
+          else
+            git commit -m "pattern alerts: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
