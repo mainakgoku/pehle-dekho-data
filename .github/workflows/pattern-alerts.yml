@@ -1,13 +1,18 @@
 name: pattern-alerts
 
-# the background half of the pattern alerts: the cloud scans, so the phone
-# does not have to be awake. Hourly through the Indian trading day.
+# The cloud scans, so the phone does not have to. Four timeframes, hourly
+# through the Indian trading day. 525 stocks x intraday is far too much for a
+# phone - Yahoo throttles hard - so it happens here and the app reads it.
 
 on:
   schedule:
-    # every hour, 09:00-15:00 IST = 03:30-09:30 UTC, Mon-Fri
-    - cron: '30 3-9 * * 1-5'
+    - cron: '30 3-9 * * 1-5'      # hourly, 09:00-15:00 IST
   workflow_dispatch:
+    inputs:
+      timeframe:
+        description: 'only this timeframe (15m / 1h / 4h / 1d); blank = all'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -15,13 +20,14 @@ permissions:
 jobs:
   scan:
     runs-on: ubuntu-latest
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Scan for chart patterns
-        run: python tools/collect_patterns.py
+        run: python tools/collect_patterns.py "${{ github.event.inputs.timeframe }}"
       - name: Commit the alerts
         run: |
           git config user.name  "pattern-bot"
