@@ -1,187 +1,115 @@
 {
- "generated": "2026-10-19T07:27:24.978879Z",
+ "generated": "2026-10-19T08:19:16.452215Z",
  "timeframe": "1d",
  "label": "daily",
  "scanned": 520,
  "failed": 5,
  "alerts": [
   {
-   "tk": "ALKEM",
+   "tk": "ARVIND",
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 5050.00",
+   "note": "closed below the range low of 509.45",
    "timeframe": "1d",
    "date": "2026-10-19"
   },
   {
-   "tk": "ASTERDM",
+   "tk": "AUBANK",
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 674.35",
+   "note": "closed below the range low of 975.00",
    "timeframe": "1d",
    "date": "2026-10-19"
   },
   {
-   "tk": "BAJAJFINSV",
+   "tk": "APTUS",
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 1708.00",
+   "note": "closed below the range low of 215.73",
    "timeframe": "1d",
    "date": "2026-10-19"
   },
   {
-   "tk": "BRITANNIA",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 4745.60",
+   "tk": "COHANCE",
+   "pattern": "Inverse head and shoulders",
+   "side": "bullish",
+   "confidence": "possible",
+   "note": "neckline reclaimed at 460.85",
    "timeframe": "1d",
    "date": "2026-10-19"
   },
   {
-   "tk": "DELHIVERY",
+   "tk": "COLPAL",
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 397.00",
+   "note": "closed below the range low of 1735.00",
    "timeframe": "1d",
    "date": "2026-10-19"
   },
   {
-   "tk": "DIXON",
-   "pattern": "Breakdown below range",
+   "tk": "DCMSHRIRAM",
+   "pattern": "Head and shoulders",
    "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 12340.00",
+   "confidence": "possible",
+   "note": "head 6.4% above the shoulders, neckline broken",
    "timeframe": "1d",
    "date": "2026-10-19"
   },
   {
-   "tk": "GALLANTT",
+   "tk": "SHAKTIPUMP",
+   "pattern": "Breakdown below range",
+   "side": "bearish",
+   "confidence": "fresh",
+   "note": "closed below the range low of 416.90",
+   "timeframe": "1d",
+   "date": "2026-10-19"
+  },
+  {
+   "tk": "NBCC",
+   "pattern": "Breakdown below range",
+   "side": "bearish",
+   "confidence": "fresh",
+   "note": "closed below the range low of 74.00",
+   "timeframe": "1d",
+   "date": "2026-10-19"
+  },
+  {
+   "tk": "PVRINOX",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 628.15",
+   "note": "closed above the range high of 1404.50",
    "timeframe": "1d",
    "date": "2026-10-19"
   },
   {
-   "tk": "MEDANTA",
+   "tk": "SWIGGY",
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 1240.00",
+   "note": "closed below the range low of 229.00",
    "timeframe": "1d",
    "date": "2026-10-19"
   },
   {
-   "tk": "GMDCLTD",
+   "tk": "TORNTPHARM",
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 462.15",
+   "note": "closed below the range low of 4558.90",
    "timeframe": "1d",
    "date": "2026-10-19"
   },
   {
-   "tk": "HUDCO",
+   "tk": "UTIAMC",
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 156.99",
-   "timeframe": "1d",
-   "date": "2026-10-19"
-  },
-  {
-   "tk": "INDIGO",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 4686.90",
-   "timeframe": "1d",
-   "date": "2026-10-19"
-  },
-  {
-   "tk": "KPIL",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 1356.40",
-   "timeframe": "1d",
-   "date": "2026-10-19"
-  },
-  {
-   "tk": "MRF",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 122090.00",
-   "timeframe": "1d",
-   "date": "2026-10-19"
-  },
-  {
-   "tk": "MAXHEALTH",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 846.00",
-   "timeframe": "1d",
-   "date": "2026-10-19"
-  },
-  {
-   "tk": "NAVA",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 536.95",
-   "timeframe": "1d",
-   "date": "2026-10-19"
-  },
-  {
-   "tk": "RRKABEL",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 2381.30",
-   "timeframe": "1d",
-   "date": "2026-10-19"
-  },
-  {
-   "tk": "SRF",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 2420.10",
-   "timeframe": "1d",
-   "date": "2026-10-19"
-  },
-  {
-   "tk": "SUNPHARMA",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 1746.40",
-   "timeframe": "1d",
-   "date": "2026-10-19"
-  },
-  {
-   "tk": "TIINDIA",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 2184.60",
-   "timeframe": "1d",
-   "date": "2026-10-19"
-  },
-  {
-   "tk": "IDEA",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 12.52",
+   "note": "closed below the range low of 869.90",
    "timeframe": "1d",
    "date": "2026-10-19"
   }
