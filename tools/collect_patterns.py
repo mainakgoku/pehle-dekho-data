@@ -160,14 +160,20 @@ def scan(tf, uni, seen):
             continue
         for pat, side, conf, note in detect(b):
             key = '%s|%s|%s' % (tk, pat, tf)
-            if seen.get(key):
-                continue
-            seen[key] = datetime.date.today().isoformat()
+            # Publish EVERY pattern currently visible, not only the new ones.
+            # Reporting only new patterns meant the second run of the day said
+            # "no new patterns" and the tab looked empty while patterns existed.
+            is_new = not seen.get(key)
+            if is_new:
+                seen[key] = datetime.date.today().isoformat()
             alerts.append({'tk': tk, 'pattern': pat, 'side': side,
                            'confidence': conf, 'note': note, 'timeframe': tf,
-                           'date': datetime.date.today().isoformat()})
+                           'date': datetime.date.today().isoformat(),
+                           'new': is_new})
         time.sleep(0.12)          # be kind to Yahoo - it throttles hard
-    return alerts, scanned, failed
+    # newest first, then strongest confidence, capped so the file stays small
+    alerts.sort(key=lambda a: (0 if a.get('new') else 1, a.get('confidence') != 'fresh'))
+    return alerts[:250], scanned, failed
 
 
 def main():
