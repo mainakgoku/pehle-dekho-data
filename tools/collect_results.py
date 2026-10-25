@@ -155,6 +155,54 @@ def from_screener(tk):
     return {'periods': heads[:8], 'figures': out}
 
 
+
+# ---- what we track, and what each thing means for a holder ----
+CATEGORIES = [
+    ('results', re.compile(
+        r'financial result|quarterly result|audited result|unaudited result|'
+        r'q[1-4] result|annual result|results? for the|half.?year', re.I),
+     'the company reported its numbers'),
+    ('board-meeting', re.compile(
+        r'board meeting|board of directors.{0,40}(meet|held)|meeting of the board', re.I),
+     'a board meeting was called - results or a dividend often follow'),
+    ('dividend', re.compile(
+        r'dividend|record date', re.I),
+     'a dividend or record date was declared'),
+    ('bonus-split', re.compile(
+        r'bonus issue|stock split|sub.?division of (shares|equity)', re.I),
+     'shares were split or a bonus was issued'),
+    ('stake', re.compile(
+        r'acquisition|acquire|stake|shareholding|promoter|open offer|'
+        r'bulk deal|block deal|disinvestment', re.I),
+     'a stake changed hands'),
+    ('management', re.compile(
+        r'appointment|resignation|managing director|chief executive|'
+        r'whole.?time director|company secretary', re.I),
+     'senior management changed'),
+    ('order', re.compile(
+        r'order (win|award)|contract (win|award)|letter of award', re.I),
+     'a new order or contract was won'),
+    ('regulatory', re.compile(
+        r'sebi|penalty|show cause|regulatory action|insolvency|nclt|'
+        r'default|downgrade|credit rating', re.I),
+     'a regulatory or credit event'),
+    ('fundraise', re.compile(
+        r'fund ?rais|rights issue|preferential (issue|allotment)|qip|'
+        r'debenture|commercial paper', re.I),
+     'the company raised or proposed money'),
+    ('agm-egm', re.compile(
+        r'annual general meeting|extra.?ordinary general meeting|postal ballot', re.I),
+     'a shareholder meeting was called'),
+]
+
+
+def categorise(subject):
+    for name, rx, meaning in CATEGORIES:
+        if rx.search(subject):
+            return name, meaning
+    return None, None
+
+
 def write(payload):
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, 'w', encoding='utf-8') as f:
@@ -189,7 +237,8 @@ def main():
           subj = str(it.get('subject') or it.get('desc') or '').strip()
           if not sym or not subj:
               continue
-          if not RESULTS_RE.search(subj):
+          cat, meaning = categorise(subj)
+          if not cat:
               continue
           # only tracked names if we have a universe; otherwise keep everything
           if tracked and sym not in tracked:
