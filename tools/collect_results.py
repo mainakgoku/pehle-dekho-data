@@ -53,6 +53,108 @@ def get(op, url):
         return None
 
 
+
+
+def from_news(tracked):
+    """NSE's own feed blocks overseas IPs (GitHub runners included). Google News
+    RSS does not, and it carries the results headlines from ET, Livemint, NDTV,
+    Business Standard and others. This is the fallback, and it is honest: it
+    records the HEADLINE, not figures."""
+    import urllib.parse
+    out = []
+    q = urllib.parse.quote('NSE results announced quarterly Q2 India')
+    url = ('https://news.google.com/rss/search?q=' + q + '&hl=en-IN&gl=IN&ceid=IN:en')
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        xml = urllib.request.urlopen(req, timeout=25).read().decode('utf-8', 'replace')
+    except Exception as e:
+        print('news fetch failed:', e)
+        return out
+    items = xml.split('<item>')[1:]
+    seen = set()
+    for it in items[:80]:
+        t = re.search(r'<title>(?:<!\[CDATA\[)?([^<]{12,200})', it)
+        src = re.search(r'<source[^>]*>([^<]*)</source>', it)
+        lnk = re.search(r'<link>([^<]+)</link>', it)
+        dt = re.search(r'<pubDate>([^<]+)</pubDate>', it)
+        if not t:
+            continue
+        title = t.group(1).replace('&amp;', '&').replace('&#39;', "'").replace('&quot;', '"').strip()
+        if not re.search(r'result|profit|revenue|earnings|q[1-4]|quarter', title, re.I):
+            continue
+        key = title[:60].lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        # try to name the company from the headline's first capitalised run
+        tk = ''
+        m = re.match(r'([A-Z][A-Za-z&.\- ]{2,28})', title)
+        if m:
+            cand = m.group(1).strip().upper()
+            for u in (tracked or []):
+                pass
+        try:
+            d = datetime.datetime.strptime(dt.group(1)[:16], '%a, %d %b %Y').date().isoformat()
+        except Exception:
+            d = datetime.date.today().isoformat()
+        out.append({'tk': tk, 'subject': title[:200], 'date': d,
+                    'filed': dt.group(1) if dt else '', 'attch': '',
+                    'url': (lnk.group(1) if lnk else ''), 'kind': 'results-news',
+                    'src': (src.group(1) if src else '')})
+    return out
+
+
+
+
+def from_screener(tk):
+    """The NUMBERS, from screener.in - the company's own reported quarterly
+    results, which NSE's announcement feed does not carry. Reachable where
+    Moneycontrol, ET and Investing.com are blocked. Reads the Quarterly Results
+    table and returns the latest few columns. It never computes or estimates."""
+    try:
+        url = 'https://www.screener.in/company/' + urllib.parse.quote(tk) + '/'
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        html = urllib.request.urlopen(req, timeout=25).read().decode('utf-8', 'replace')
+    except Exception as e:
+        print('screener fetch failed for', tk, e)
+        return None
+    # the quarterly table sits in <section id="quarters">
+    m = re.search(r'<section[^>]*id="quarters"[\s\S]{0,90000}?</section>', html)
+    if not m:
+        return None
+    seg = m.group(0)
+    # the period labels are the FIRST row's cells (the header row is empty)
+    heads = []
+    _first = re.search(r'<tr[^>]*>([\s\S]*?)</tr>', seg)
+    if _first:
+        heads = [re.sub(r'<[^>]+>', '', c).replace('&nbsp;', ' ').strip()
+                 for c in re.findall(r'<t[dh][^>]*>([\s\S]*?)</t[dh]>', _first.group(1))]
+        heads = [h for h in heads if h]
+    rows = {}
+    for rm in re.finditer(r'<tr[^>]*>([\s\S]*?)</tr>', seg):
+        cells = re.findall(r'<t[dh][^>]*>([\s\S]*?)</t[dh]>', rm.group(1))
+        cells = [re.sub(r'<[^>]+>', '', c).replace('&nbsp;', ' ').strip() for c in cells]
+        if not cells:
+            continue
+        label = cells[0]
+        vals = cells[1:]
+        if label and vals:
+            rows[label] = vals
+    if not rows:
+        return None
+    # keep the lines that matter for a results read
+    keep = ['Sales', 'Revenue', 'Expenses', 'Operating Profit', 'OPM %',
+            'Other Income', 'Interest', 'Depreciation', 'Profit before tax',
+            'Net Profit', 'EPS in Rs']
+    out = {}
+    for k in keep:
+        for rk in rows:
+            if rk.lower().startswith(k.lower()):
+                out[k] = rows[rk]
+                break
+    return {'periods': heads[:8], 'figures': out}
+
+
 def write(payload):
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, 'w', encoding='utf-8') as f:
@@ -95,8 +197,8 @@ def main():
           rows.append({
               'tk': sym,
               'subject': subj[:220],
-              'date': str(it.get('an_dt') or it.get('exchdisstime') or '')[:10],
-              'filed': str(it.get('an_dt') or '')[:19],
+              'date': str(it.get('an_dt') or it.get('exchdisstime') or '')[:11],
+              'filed': str(it.get('an_dt') or '')[:20],
               'attch': str(it.get('attchmntFile') or ''),
               'url': str(it.get('attchmntFile') or
                          'https://www.nseindia.com/companies-listing/corporate-filings-announcements'),
@@ -110,8 +212,23 @@ def main():
           k = '%s|%s' % (r['tk'], r['date'])
           if k in seen:
               continue
-          seen[k] = 1
+          seen.add(k)
           out.append(r)
+
+      if not out:
+          print('NSE gave nothing - falling back to Google News RSS')
+          out = from_news(tracked)
+
+      # the numbers themselves, for the most recent few - screener.in is the
+      # only reachable source that carries them
+      for r in out[:6]:
+          if r.get('tk'):
+              try:
+                  fig = from_screener(r['tk'])
+                  if fig:
+                      r['figures'] = fig
+              except Exception as e:
+                  print('screener skip', r.get('tk'), e)
 
       payload = {
           'date': today.isoformat(),
@@ -119,6 +236,7 @@ def main():
           'scanned': scanned,
           'results_count': len(out),
           'results': out[:400],
+        'source': ('nse-announcements' if out and out[0].get('kind') == 'results' else 'google-news-rss'),
           'note': ('Announcements only - NSE publishes that results were filed, not the '
                    'figures. The numbers are in the attached filing. Not a signal.'),
       }
