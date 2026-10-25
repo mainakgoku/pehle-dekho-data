@@ -190,6 +190,16 @@ CATEGORIES = [
         r'fund ?rais|rights issue|preferential (issue|allotment)|qip|'
         r'debenture|commercial paper', re.I),
      'the company raised or proposed money'),
+    ('concall', re.compile(
+        r'con ?call|earnings call|investor call|analyst call|'
+        r'institutional investor|one.?on.?one|investor presentation|'
+        r'transcript', re.I),
+     'a call or transcript was filed - management explains the results here'),
+    ('project', re.compile(
+        r'capacity (expansion|addition)|new plant|greenfield|brownfield|'
+        r'commissioning|commercial production|project (update|progress)|'
+        r'memorandum of understanding|\bmou\b|joint venture|\bjv\b', re.I),
+     'a project, expansion or partnership was announced'),
     ('agm-egm', re.compile(
         r'annual general meeting|extra.?ordinary general meeting|postal ballot', re.I),
      'a shareholder meeting was called'),
