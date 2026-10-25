@@ -280,6 +280,22 @@ def main():
               except Exception as e:
                   print('screener skip', r.get('tk'), e)
 
+      # GUARD: if this run found nothing, do not destroy a good file.
+      # NSE blocks overseas IPs, so the scheduled run on GitHub's runners
+      # regularly returns zero. Overwriting a real list with an empty one is
+      # worse than doing nothing.
+      if not out:
+          try:
+              import os as _os
+              if _os.path.exists(OUT):
+                  _prev = json.load(open(OUT, encoding='utf-8'))
+                  if (_prev.get('results_count') or 0) > 0:
+                      print('found 0 this run - keeping the existing %d from %s'
+                            % (_prev.get('results_count'), _prev.get('date')))
+                      sys.exit(0)
+          except Exception as _e:
+              print('guard check failed:', _e)
+
       payload = {
           'date': today.isoformat(),
           'window_days': days,
