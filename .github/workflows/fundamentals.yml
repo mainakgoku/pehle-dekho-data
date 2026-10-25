@@ -1,0 +1,48 @@
+name: fundamentals
+
+# Collects P/E, ROE, yield, book value and growth from screener.in and publishes
+# data/fundamentals.json. The dossier's technicals refresh live; these were baked
+# in at build time and were weeks old. This keeps them current.
+#
+# screener.in throttles hard (429 after a couple of requests), so the collector
+# paces itself at 6s per company with backoff, and runs in slices: 175 companies
+# per run, three runs a day, so the whole 525-stock universe refreshes daily
+# without ever hammering the site.
+
+on:
+  schedule:
+    - cron: '0 3 * * *'    # 08:30 IST - slice 1
+    - cron: '0 8 * * *'    # 13:30 IST - slice 2
+    - cron: '0 13 * * *'   # 18:30 IST - slice 3
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'how many companies this run (default 175)'
+        required: false
+        default: '175'
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect fundamentals
+        run: python tools/collect_fundamentals.py ${{ github.event.inputs.limit || '175' }}
+      - name: Commit the file
+        run: |
+          git config user.name  "pehle-dekho-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/fundamentals.json
+          if git diff --staged --quiet; then
+            echo "no change to publish"
+          else
+            git commit -m "fundamentals: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
