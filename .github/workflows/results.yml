@@ -1,0 +1,32 @@
+name: results-tracker
+
+# Scans NSE's corporate-announcements feed for RESULTS filings and publishes
+# data/results.json. The app reads that file and shows, in each stock's dossier,
+# that the company has declared results - with the date and the filing link.
+#
+# It records WHAT WAS ANNOUNCED and WHEN. It never invents figures: NSE's feed
+# carries the fact of the filing, not the numbers.
+
+on:
+  schedule:
+    - cron: '30 12 * * 1-5'   # 18:00 IST, after the filing window
+    - cron: '30 4 * * 1-5'    # 10:00 IST
+  workflow_dispatch:
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect results announcements
+        run: python tools/collect_results.py 7
+      - name: Commit the file
+        run: |
+          git config user.name  "pehle-dekho-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/results.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "results: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
