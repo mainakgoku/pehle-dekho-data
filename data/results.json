@@ -425,68 +425,10 @@
    "filed": "19-Oct-2026 16:44:16",
    "attch": "-",
    "url": "-",
-   "kind": "results",
-   "figures": {
-    "periods": [
-     "Jun 2025",
-     "Mar 2026",
-     "Jun 2026"
-    ],
-    "figures": {
-     "Sales": [
-      "284",
-      "347",
-      "409"
-     ],
-     "Expenses": [
-      "197",
-      "240",
-      "290"
-     ],
-     "Operating Profit": [
-      "86",
-      "106",
-      "120"
-     ],
-     "OPM %": [
-      "30%",
-      "31%",
-      "29%"
-     ],
-     "Other Income": [
-      "9",
-      "9",
-      "5"
-     ],
-     "Interest": [
-      "34",
-      "5",
-      "4"
-     ],
-     "Depreciation": [
-      "14",
-      "16",
-      "19"
-     ],
-     "Profit before tax": [
-      "48",
-      "94",
-      "102"
-     ],
-     "Net Profit": [
-      "34",
-      "68",
-      "76"
-     ],
-     "EPS in Rs": [
-      "1.55",
-      "3.07",
-      "3.42"
-     ]
-    }
-   }
+   "kind": "results"
   }
  ],
  "source": "nse-announcements",
- "note": "Announcements only - NSE publishes that results were filed, not the figures. The numbers are in the attached filing. Not a signal."
+ "note": "Announcements from NSE plus the reported quarterly figures from screener.in. NSE's feed carries the fact of the filing, not the numbers; screener.in carries the numbers. Nothing is invented. Not a signal, not advice.",
+ "collected_by": "sandbox (NSE blocks overseas runner IPs)"
 }
