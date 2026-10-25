@@ -95,12 +95,71 @@ def parse(html):
     return out
 
 
+
+
+def table_from(html, section_id, want):
+    """Pull a screener table (quarters or profit-loss) into {label: [values]}.
+       `want` = how many recent columns to keep."""
+    m = re.search(r'<section[^>]*id="' + section_id + r'"[\s\S]{0,90000}?</section>', html)
+    if not m:
+        return None
+    seg = m.group(0)
+    rows, periods = {}, []
+    for rm in re.finditer(r'<tr[^>]*>([\s\S]*?)</tr>', seg):
+        cells = [re.sub(r'<[^>]+>', '', c).replace('&nbsp;', ' ').strip()
+                 for c in re.findall(r'<t[dh][^>]*>([\s\S]*?)</t[dh]>', rm.group(1))]
+        if not cells:
+            continue
+        if not periods and len(cells) > 1:
+            periods = [c for c in cells[1:] if c]
+            continue
+        label = re.sub(r'\s*\+$', '', cells[0]).strip()
+        if label and len(cells) > 1:
+            rows[label] = cells[1:]
+    if not rows:
+        return None
+    keep = ['Sales', 'Expenses', 'Operating Profit', 'OPM %', 'Net Profit',
+            'Profit before tax', 'EPS in Rs']
+    out = {}
+    for k in keep:
+        for rk in rows:
+            if rk.lower().startswith(k.lower()):
+                out[k] = rows[rk][-want:]
+                break
+    return {'periods': periods[-want:], 'rows': out}
+
+
+def add_tables(html, row):
+    try:
+        q = table_from(html, 'quarters', 4)
+        if q: row['quarters'] = q
+    except Exception as e:
+        print('    quarters parse failed:', e)
+    try:
+        a = table_from(html, 'profit-loss', 4)
+        if a: row['annual'] = a
+    except Exception as e:
+        print('    annual parse failed:', e)
+    return row
+
+
 def main():
     limit = int(sys.argv[1]) if len(sys.argv) > 1 else 50
     tickers = []
     try:
         u = json.load(open(UNI, encoding='utf-8'))
-        tickers = [str(x[0]) for x in u][:limit]
+        # the file has appeared in two shapes - a plain list of rows, and a dict
+        if isinstance(u, dict):
+            u = u.get('stocks') or u.get('universe') or u.get('rows') or []
+        tickers = []
+        for x in u:
+            if isinstance(x, (list, tuple)) and x:
+                tickers.append(str(x[0]))
+            elif isinstance(x, str):
+                tickers.append(x)
+            elif isinstance(x, dict):
+                tickers.append(str(x.get('tk') or x.get('symbol') or x.get('ticker') or ''))
+        tickers = [t for t in tickers if t][:limit]
     except Exception as e:
         print('universe not found:', e)
         return
@@ -115,7 +174,7 @@ def main():
     for i, tk in enumerate(tickers):
         try:
             html = fetch(tk)
-            row = parse(html)
+            row = add_tables(html, parse(html))
             if not row:
                 failed += 1
                 print('  %-12s no ratios found' % tk)
