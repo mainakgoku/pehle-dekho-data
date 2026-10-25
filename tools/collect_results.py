@@ -251,7 +251,8 @@ def main():
               'attch': str(it.get('attchmntFile') or ''),
               'url': str(it.get('attchmntFile') or
                          'https://www.nseindia.com/companies-listing/corporate-filings-announcements'),
-              'kind': 'results',
+              'kind': cat,
+            'meaning': meaning,
           })
 
       rows.sort(key=lambda r: r.get('filed') or '', reverse=True)
@@ -285,7 +286,7 @@ def main():
           'scanned': scanned,
           'results_count': len(out),
           'results': out[:400],
-        'source': ('nse-announcements' if out and out[0].get('kind') == 'results' else 'google-news-rss'),
+        'source': ('nse-announcements' if out and out[0].get('kind') not in ('results-news',) else 'google-news-rss'),
           'note': ('Announcements only - NSE publishes that results were filed, not the '
                    'figures. The numbers are in the attached filing. Not a signal.'),
       }
