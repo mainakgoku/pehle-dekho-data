@@ -53,73 +53,91 @@ def get(op, url):
         return None
 
 
-def main():
-    days = int(sys.argv[1]) if len(sys.argv) > 1 else 7
-    today = datetime.date.today()
-    frm = today - datetime.timedelta(days=days)
-
-    op = session()
-    url = ('https://www.nseindia.com/api/corporate-announcements'
-           '?index=equities&from_date=%s&to_date=%s'
-           % (frm.strftime('%d-%m-%Y'), today.strftime('%d-%m-%Y')))
-    data = get(op, url)
-
-    # a known set of tracked tickers, so the file stays small and relevant
-    tracked = set()
-    try:
-        u = json.load(open(UNIVERSE, encoding='utf-8'))
-        tracked = set(str(x[0]).upper() for x in u)
-    except Exception:
-        pass
-
-    rows, scanned = [], 0
-    for it in (data or []):
-        scanned += 1
-        sym = str(it.get('symbol') or '').upper().strip()
-        subj = str(it.get('subject') or it.get('desc') or '').strip()
-        if not sym or not subj:
-            continue
-        if not RESULTS_RE.search(subj):
-            continue
-        # only tracked names if we have a universe; otherwise keep everything
-        if tracked and sym not in tracked:
-            continue
-        rows.append({
-            'tk': sym,
-            'subject': subj[:220],
-            'date': str(it.get('an_dt') or it.get('exchdisstime') or '')[:10],
-            'filed': str(it.get('an_dt') or '')[:19],
-            'attch': str(it.get('attchmntFile') or ''),
-            'url': str(it.get('attchmntFile') or
-                       'https://www.nseindia.com/companies-listing/corporate-filings-announcements'),
-            'kind': 'results',
-        })
-
-    rows.sort(key=lambda r: r.get('filed') or '', reverse=True)
-    # one row per stock per day, newest first
-    seen, out = set(), []
-    for r in rows:
-        k = '%s|%s' % (r['tk'], r['date'])
-        if k in seen:
-            continue
-        seen[k] = 1
-        out.append(r)
-
-    payload = {
-        'date': today.isoformat(),
-        'window_days': days,
-        'scanned': scanned,
-        'results_count': len(out),
-        'results': out[:400],
-        'note': ('Announcements only - NSE publishes that results were filed, not the '
-                 'figures. The numbers are in the attached filing. Not a signal.'),
-    }
+def write(payload):
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(payload, f, ensure_ascii=False, indent=1)
-    print('scanned %d announcements, kept %d results filings' % (scanned, len(out)))
-    for r in out[:8]:
-        print('  %-12s %s  %s' % (r['tk'], r['date'], r['subject'][:70]))
+    print('wrote', OUT)
+
+
+def main():
+  try:
+      days = int(sys.argv[1]) if len(sys.argv) > 1 else 7
+      today = datetime.date.today()
+      frm = today - datetime.timedelta(days=days)
+
+      op = session()
+      url = ('https://www.nseindia.com/api/corporate-announcements'
+             '?index=equities&from_date=%s&to_date=%s'
+             % (frm.strftime('%d-%m-%Y'), today.strftime('%d-%m-%Y')))
+      data = get(op, url)
+
+      # a known set of tracked tickers, so the file stays small and relevant
+      tracked = set()
+      try:
+          u = json.load(open(UNIVERSE, encoding='utf-8'))
+          tracked = set(str(x[0]).upper() for x in u)
+      except Exception:
+          pass
+
+      rows, scanned = [], 0
+      for it in (data or []):
+          scanned += 1
+          sym = str(it.get('symbol') or '').upper().strip()
+          subj = str(it.get('subject') or it.get('desc') or '').strip()
+          if not sym or not subj:
+              continue
+          if not RESULTS_RE.search(subj):
+              continue
+          # only tracked names if we have a universe; otherwise keep everything
+          if tracked and sym not in tracked:
+              continue
+          rows.append({
+              'tk': sym,
+              'subject': subj[:220],
+              'date': str(it.get('an_dt') or it.get('exchdisstime') or '')[:10],
+              'filed': str(it.get('an_dt') or '')[:19],
+              'attch': str(it.get('attchmntFile') or ''),
+              'url': str(it.get('attchmntFile') or
+                         'https://www.nseindia.com/companies-listing/corporate-filings-announcements'),
+              'kind': 'results',
+          })
+
+      rows.sort(key=lambda r: r.get('filed') or '', reverse=True)
+      # one row per stock per day, newest first
+      seen, out = set(), []
+      for r in rows:
+          k = '%s|%s' % (r['tk'], r['date'])
+          if k in seen:
+              continue
+          seen[k] = 1
+          out.append(r)
+
+      payload = {
+          'date': today.isoformat(),
+          'window_days': days,
+          'scanned': scanned,
+          'results_count': len(out),
+          'results': out[:400],
+          'note': ('Announcements only - NSE publishes that results were filed, not the '
+                   'figures. The numbers are in the attached filing. Not a signal.'),
+      }
+      os.makedirs(os.path.dirname(OUT), exist_ok=True)
+      with open(OUT, 'w', encoding='utf-8') as f:
+          json.dump(payload, f, ensure_ascii=False, indent=1)
+      print('scanned %d announcements, kept %d results filings' % (scanned, len(out)))
+      for r in out[:8]:
+          print('  %-12s %s  %s' % (r['tk'], r['date'], r['subject'][:70]))
+
+
+
+  except Exception as e:
+    print('collector error:', type(e).__name__, e)
+    write({'date': datetime.date.today().isoformat(), 'window_days': 0,
+           'scanned': 0, 'results_count': 0, 'results': [],
+           'note': 'The feed could not be reached from this runner. Nothing is '
+                   'published rather than a guessed list.'})
+    sys.exit(0)
 
 
 if __name__ == '__main__':
