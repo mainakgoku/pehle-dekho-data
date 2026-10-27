@@ -1,0 +1,34 @@
+name: calendar
+
+# Forward-looking corporate action calendar from NSE's event calendar.
+# The announcements feed only looks backward; this looks 45 days ahead.
+# No API key, no mock - every row is an exchange filing.
+
+on:
+  schedule:
+    - cron: '15 1 * * 1-5'   # 06:45 IST
+    - cron: '15 12 * * 1-5'  # 17:45 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect calendar
+        run: python tools/collect_calendar.py 45
+      - name: Commit
+        run: |
+          git config user.name  "pehle-dekho-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/calendar.json
+          if git diff --staged --quiet; then echo "no change"; else
+            git commit -m "calendar: $(date -u +%Y-%m-%dT%H:%MZ)"; git push
+          fi
