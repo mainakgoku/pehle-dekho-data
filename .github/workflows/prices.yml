@@ -1,0 +1,38 @@
+name: prices
+
+# Refreshes last-close prices so the app's stored figures are not weeks old.
+# The app was audited against live quotes: 4 of 12 stocks were more than 10% off.
+
+on:
+  schedule:
+    - cron: '45 11 * * 1-5'   # 17:15 IST, after the close
+    - cron: '15 4 * * 1-5'    # 09:45 IST, before the open
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'how many symbols (default 525)'
+        required: false
+        default: '525'
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh prices
+        run: python tools/collect_prices.py ${{ github.event.inputs.limit || '525' }}
+      - name: Commit
+        run: |
+          git config user.name  "pehle-dekho-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/prices.json
+          if git diff --staged --quiet; then echo "no change"; else
+            git commit -m "prices: $(date -u +%Y-%m-%dT%H:%MZ)"; git push
+          fi
