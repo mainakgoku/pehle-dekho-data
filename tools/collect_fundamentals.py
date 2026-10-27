@@ -119,7 +119,14 @@ def table_from(html, section_id, want):
     if not rows:
         return None
     keep = ['Sales', 'Expenses', 'Operating Profit', 'OPM %', 'Net Profit',
-            'Profit before tax', 'EPS in Rs']
+            'Profit before tax', 'EPS in Rs',
+            # cash flow
+            'Cash from Operating Activity', 'Cash from Investing Activity',
+            'Cash from Financing Activity', 'Net Cash Flow', 'Free Cash Flow',
+            'CFO/EBITDA',
+            # balance sheet
+            'Equity Capital', 'Reserves', 'Borrowings', 'Total Liabilities',
+            'Fixed Assets', 'Total Assets']
     out = {}
     for k in keep:
         for rk in rows:
@@ -141,6 +148,68 @@ def add_tables(html, row):
     except Exception as e:
         print('    annual parse failed:', e)
     return row
+
+
+
+
+def quality_tables(html, row):
+    """The four checks that tell you whether profit is real:
+       operating cash flow vs profit, borrowings, share count, and the
+       working-capital lines. All from screener's own reported tables."""
+    try:
+        cf = table_from(html, 'cash-flow', 4)
+        if cf:
+            row['cashflow'] = cf
+    except Exception as e:
+        print('    cashflow parse failed:', e)
+    try:
+        bs = table_from(html, 'balance-sheet', 4)
+        if bs:
+            row['balance'] = bs
+    except Exception as e:
+        print('    balance sheet parse failed:', e)
+    try:
+        sh = shareholding(html)
+        if sh:
+            row['holding'] = sh
+    except Exception as e:
+        print('    shareholding parse failed:', e)
+    return row
+
+
+def shareholding(html):
+    """Promoter, FII, DII, government and public holding, latest quarter.
+       screener labels these 'Promoters +', 'FIIs +' etc - the trailing '+'
+       is a tooltip marker and is stripped."""
+    m = re.search(r'<section[^>]*id="shareholding"[\s\S]{0,90000}?</section>', html)
+    if not m:
+        return None
+    seg = m.group(0)
+    periods, rows = [], {}
+    for rm in re.finditer(r'<tr[^>]*>([\s\S]*?)</tr>', seg):
+        cells = [re.sub(r'<[^>]+>', '', c).replace('&nbsp;', ' ').strip()
+                 for c in re.findall(r'<t[dh][^>]*>([\s\S]*?)</t[dh]>', rm.group(1))]
+        if not cells:
+            continue
+        if not periods and len(cells) > 1:
+            periods = [c for c in cells[1:] if c]
+            continue
+        label = re.sub(r'\s*\+$', '', cells[0]).strip()
+        if label and len(cells) > 1:
+            rows[label] = cells[1:]
+    if not rows or not periods:
+        return None
+    want = {'promoter': 'Promoters', 'fii': 'FIIs', 'dii': 'DIIs',
+            'government': 'Government', 'public': 'Public'}
+    out = {'period': periods[-1] if periods else None}
+    for key, lbl in want.items():
+        for rk in rows:
+            if rk.lower().startswith(lbl.lower()):
+                vals = rows[rk]
+                out[key] = vals[-1] if vals else None
+                out[key + '_prev'] = vals[-2] if len(vals) > 1 else None
+                break
+    return out if len(out) > 1 else None
 
 
 def main():
@@ -174,7 +243,7 @@ def main():
     for i, tk in enumerate(tickers):
         try:
             html = fetch(tk)
-            row = add_tables(html, parse(html))
+            row = quality_tables(html, add_tables(html, parse(html)))
             if not row:
                 failed += 1
                 print('  %-12s no ratios found' % tk)
@@ -182,8 +251,10 @@ def main():
                 row['fetched'] = datetime.date.today().isoformat()
                 stocks[tk] = row
                 ok += 1
-                print('  %-12s P/E %-8s ROE %-6s yield %-5s' %
-                      (tk, row.get('pe', '-'), row.get('roe', '-'), row.get('yield', '-')))
+                print('  %-12s P/E %-8s ROE %-6s CF %-4s FII %-6s' %
+                      (tk, row.get('pe', '-'), row.get('roe', '-'),
+                       'yes' if row.get('cashflow') else 'no',
+                       (row.get('holding') or {}).get('fii', '-')))
         except Exception as e:
             failed += 1
             print('  %-12s failed: %s' % (tk, e))
