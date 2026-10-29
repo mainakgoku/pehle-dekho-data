@@ -1,15 +1,15 @@
 {
- "date": "2026-10-28",
+ "date": "2026-10-29",
  "source": "screener.in",
  "requested": 175,
  "ok": 172,
  "failed": 3,
  "stocks": {
   "360ONE": {
-   "mcap": "41,939",
+   "mcap": "42,456",
    "price": "991",
    "range52": "1,236",
-   "pe": "84.0",
+   "pe": "85.0",
    "bookValue": "186",
    "yield": "1.36",
    "roce": "6.89",
@@ -228,10 +228,10 @@
     "public": "15.41%",
     "public_prev": "17.67%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "3MINDIA": {
-   "mcap": "32,484",
+   "mcap": "32,491",
    "price": "28,830",
    "range52": "38,300",
    "pe": "73.7",
@@ -451,13 +451,13 @@
     "public": "13.32%",
     "public_prev": "13.15%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ABB": {
-   "mcap": "1,37,697",
+   "mcap": "1,37,529",
    "price": "6,490",
    "range52": "7,924",
-   "pe": "89.3",
+   "pe": "89.2",
    "bookValue": "441",
    "yield": "0.61",
    "roce": "29.9",
@@ -674,13 +674,13 @@
     "public": "7.63%",
     "public_prev": "7.50%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ACC": {
-   "mcap": "21,508",
+   "mcap": "21,412",
    "price": "1,140",
    "range52": "1,987",
-   "pe": "22.2",
+   "pe": "22.1",
    "bookValue": "1,094",
    "yield": "0.66",
    "roce": "11.5",
@@ -899,71 +899,71 @@
     "public": "16.42%",
     "public_prev": "15.60%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ACMESOLAR": {
-   "mcap": "28,990",
+   "mcap": "29,063",
    "price": "411",
    "range52": "477",
-   "pe": "64.6",
-   "bookValue": "81.7",
+   "pe": "44.0",
+   "bookValue": "115",
    "yield": "0.05",
    "roce": "7.78",
    "roe": "3.57",
    "faceValue": "2.00",
    "salesGrowth": "84%",
    "profitGrowth": "34%",
-   "priceCagr": "46%",
+   "priceCagr": "44%",
    "roeCalc": "1%",
    "quarters": {
     "periods": [
-     "Sep 2025",
      "Dec 2025",
      "Mar 2026",
-     "Jun 2026"
+     "Jun 2026",
+     "Sep 2026"
     ],
     "rows": {
      "Sales": [
-      "332",
       "918",
       "2,378",
-      "2,266"
+      "2,266",
+      "3,313"
      ],
      "Expenses": [
-      "359",
       "881",
       "2,070",
-      "2,096"
+      "2,096",
+      "2,994"
      ],
      "Operating Profit": [
-      "-27",
       "36",
       "308",
-      "170"
+      "170",
+      "319"
      ],
      "OPM %": [
-      "-8%",
       "3.9%",
       "13%",
-      "8%"
+      "8%",
+      "10%"
      ],
      "Net Profit": [
-      "31",
       "32",
       "276",
-      "122"
+      "122",
+      "241"
      ],
      "Profit before tax": [
-      "41",
       "44",
       "370",
-      "163"
+      "163",
+      "323"
      ],
      "EPS in Rs": [
       "0.52",
-      "0.52",
       "4.56",
-      "1.72"
+      "1.72",
+      "3.41"
      ]
     }
    },
@@ -979,43 +979,43 @@
       "471",
       "1,352",
       "3,911",
-      "5,895"
+      "8,875"
      ],
      "Expenses": [
       "527",
       "1,084",
       "3,594",
-      "5,407"
+      "8,042"
      ],
      "Operating Profit": [
       "-56",
       "269",
       "317",
-      "488"
+      "833"
      ],
      "OPM %": [
       "-12%",
       "20%",
       "8%",
-      "8%"
+      "9%"
      ],
      "Net Profit": [
       "420",
       "189",
       "340",
-      "461"
+      "671"
      ],
      "Profit before tax": [
       "518",
       "253",
       "457",
-      "619"
+      "900"
      ],
      "EPS in Rs": [
       "8.03",
       "3.12",
       "5.61",
-      "7.32"
+      "10.21"
      ]
     }
    },
@@ -1067,47 +1067,47 @@
    },
    "balance": {
     "periods": [
-     "Mar 2023",
      "Mar 2024",
      "Mar 2025",
-     "Mar 2026"
+     "Mar 2026",
+     "Sep 2026"
     ],
     "rows": {
      "Equity Capital": [
       "104",
-      "104",
       "121",
-      "121"
+      "121",
+      "141"
      ],
      "Reserves": [
-      "2,178",
       "2,598",
       "4,437",
-      "4,831"
+      "4,831",
+      "7,971"
      ],
      "Borrowings": [
-      "1,674",
       "1,702",
       "2,269",
-      "4,260"
+      "4,260",
+      "5,227"
      ],
      "Total Liabilities": [
-      "5,233",
       "6,091",
       "8,691",
-      "12,942"
+      "12,942",
+      "21,261"
      ],
      "Fixed Assets": [
-      "0",
       "1",
       "2",
-      "6"
+      "6",
+      "66"
      ],
      "Total Assets": [
-      "5,233",
       "6,091",
       "8,691",
-      "12,942"
+      "12,942",
+      "21,261"
      ]
     }
    },
@@ -1122,10 +1122,10 @@
     "public": "4.57%",
     "public_prev": "5.96%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AIAENG": {
-   "mcap": "33,642",
+   "mcap": "33,670",
    "price": "3,608",
    "range52": "5,180",
    "pe": "26.0",
@@ -1347,13 +1347,13 @@
     "public": "2.54%",
     "public_prev": "2.69%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "APLAPOLLO": {
-   "mcap": "60,227",
+   "mcap": "60,121",
    "price": "2,165",
    "range52": "2,301",
-   "pe": "81.7",
+   "pe": "81.6",
    "bookValue": "132",
    "yield": "0.39",
    "roce": "21.5",
@@ -1570,10 +1570,10 @@
     "public": "16.85%",
     "public_prev": "18.18%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ARVIND": {
-   "mcap": "13,921",
+   "mcap": "13,935",
    "price": "512",
    "range52": "607",
    "pe": "49.5",
@@ -1793,13 +1793,13 @@
     "public": "22.94%",
     "public_prev": "24.34%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AUBANK": {
-   "mcap": "65,547",
+   "mcap": "66,088",
    "price": "879",
    "range52": "1,145",
-   "pe": "20.8",
+   "pe": "21.0",
    "bookValue": "286",
    "yield": "0.11",
    "roce": "7.66",
@@ -1968,7 +1968,7 @@
     "public": "8.45%",
     "public_prev": "8.67%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AVANTEL": {
    "mcap": "3,573",
@@ -2191,10 +2191,10 @@
     "public": "61.70%",
     "public_prev": "61.48%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AWL": {
-   "mcap": "21,514",
+   "mcap": "21,508",
    "price": "165",
    "range52": "283",
    "pe": "19.0",
@@ -2205,7 +2205,7 @@
    "faceValue": "1.00",
    "salesGrowth": "14%",
    "profitGrowth": "9%",
-   "priceCagr": "-21%",
+   "priceCagr": "-20%",
    "roeCalc": "12%",
    "quarters": {
     "periods": [
@@ -2414,10 +2414,10 @@
     "public": "12.72%",
     "public_prev": "12.38%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AADHARHFC": {
-   "mcap": "18,860",
+   "mcap": "18,873",
    "price": "430",
    "range52": "563",
    "pe": "16.4",
@@ -2589,13 +2589,13 @@
     "public": "19.89%",
     "public_prev": "19.83%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AARTIIND": {
-   "mcap": "15,852",
-   "price": "437",
+   "mcap": "15,923",
+   "price": "439",
    "range52": "552",
-   "pe": "30.7",
+   "pe": "30.8",
    "bookValue": "165",
    "yield": "0.23",
    "roce": "6.84",
@@ -2814,11 +2814,11 @@
     "public": "30.31%",
     "public_prev": "30.39%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AAVAS": {
-   "mcap": "8,843",
-   "price": "1,116",
+   "mcap": "8,842",
+   "price": "1,115",
    "range52": "1,775",
    "pe": "12.6",
    "bookValue": "681",
@@ -2989,15 +2989,15 @@
     "public": "13.53%",
     "public_prev": "12.24%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ABBOTINDIA": {
-   "mcap": "55,892",
-   "price": "26,275",
+   "mcap": "56,291",
+   "price": "26,490",
    "range52": "30,655",
-   "pe": "34.6",
+   "pe": "34.9",
    "bookValue": "2,247",
-   "yield": "2.00",
+   "yield": "1.98",
    "roce": "44.8",
    "roe": "34.4",
    "faceValue": "10.0",
@@ -3212,13 +3212,13 @@
     "public": "15.62%",
     "public_prev": "15.81%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ACE": {
-   "mcap": "12,182",
-   "price": "1,023",
+   "mcap": "12,286",
+   "price": "1,032",
    "range52": "1,268",
-   "pe": "27.2",
+   "pe": "27.5",
    "bookValue": "168",
    "yield": "0.20",
    "roce": "32.4",
@@ -3435,13 +3435,13 @@
     "public": "23.03%",
     "public_prev": "23.10%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ACUTAAS": {
-   "mcap": "30,364",
-   "price": "3,710",
+   "mcap": "30,346",
+   "price": "3,706",
    "range52": "3,977",
-   "pe": "66.0",
+   "pe": "65.9",
    "bookValue": "228",
    "yield": "0.07",
    "roce": "32.7",
@@ -3660,13 +3660,13 @@
     "public": "25.31%",
     "public_prev": "28.24%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ADANIENSOL": {
-   "mcap": "1,59,173",
-   "price": "1,294",
+   "mcap": "1,57,620",
+   "price": "1,289",
    "range52": "1,789",
-   "pe": "379",
+   "pe": "376",
    "bookValue": "200",
    "yield": "0.00",
    "roce": "4.92",
@@ -3883,13 +3883,13 @@
     "public": "3.44%",
     "public_prev": "4.81%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ADANIENT": {
-   "mcap": "3,35,624",
-   "price": "2,480",
+   "mcap": "3,35,921",
+   "price": "2,482",
    "range52": "3,245",
-   "pe": "86.4",
+   "pe": "86.5",
    "bookValue": "579",
    "yield": "0.05",
    "roce": "7.59",
@@ -4106,13 +4106,13 @@
     "public": "6.75%",
     "public_prev": "7.84%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ADANIGREEN": {
-   "mcap": "2,09,677",
-   "price": "1,269",
+   "mcap": "2,08,368",
+   "price": "1,265",
    "range52": "1,632",
-   "pe": "866",
+   "pe": "861",
    "bookValue": "90.5",
    "yield": "0.00",
    "roce": "5.98",
@@ -4329,15 +4329,15 @@
     "public": "20.94%",
     "public_prev": "21.92%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ADANIPORTS": {
-   "mcap": "4,03,680",
-   "price": "1,761",
+   "mcap": "4,14,667",
+   "price": "1,800",
    "range52": "1,892",
-   "pe": "124",
+   "pe": "127",
    "bookValue": "272",
-   "yield": "0.43",
+   "yield": "0.42",
    "roce": "8.12",
    "roe": "3.72",
    "faceValue": "2.00",
@@ -4554,13 +4554,13 @@
     "public": "4.78%",
     "public_prev": "4.89%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ADANIPOWER": {
-   "mcap": "3,57,093",
-   "price": "185",
+   "mcap": "3,55,417",
+   "price": "184",
    "range52": "254",
-   "pe": "22.9",
+   "pe": "22.8",
    "bookValue": "35.4",
    "yield": "0.00",
    "roce": "19.1",
@@ -4777,13 +4777,13 @@
     "public": "9.55%",
     "public_prev": "9.63%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ATGL": {
-   "mcap": "58,724",
-   "price": "534",
+   "mcap": "58,669",
+   "price": "533",
    "range52": "860",
-   "pe": "95.8",
+   "pe": "95.7",
    "bookValue": "46.6",
    "yield": "0.05",
    "roce": "15.1",
@@ -5000,13 +5000,13 @@
     "public": "5.97%",
     "public_prev": "6.18%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ABCAPITAL": {
-   "mcap": "97,625",
-   "price": "356",
+   "mcap": "98,897",
+   "price": "361",
    "range52": "431",
-   "pe": "29.3",
+   "pe": "29.7",
    "bookValue": "110",
    "yield": "0.00",
    "roce": "8.75",
@@ -5177,11 +5177,11 @@
     "public": "9.52%",
     "public_prev": "10.64%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ABFRL": {
-   "mcap": "4,876",
-   "price": "39.8",
+   "mcap": "4,881",
+   "price": "40.0",
    "range52": "86.2",
    "bookValue": "65.3",
    "yield": "0.00",
@@ -5401,13 +5401,13 @@
     "public": "38.70%",
     "public_prev": "30.96%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ABLBL": {
-   "mcap": "8,783",
-   "price": "71.9",
+   "mcap": "8,822",
+   "price": "72.3",
    "range52": "142",
-   "pe": "48.4",
+   "pe": "48.7",
    "bookValue": "11.4",
    "yield": "0.70",
    "roce": "14.2",
@@ -5588,13 +5588,13 @@
     "public": "19.69%",
     "public_prev": "19.87%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ABREL": {
-   "mcap": "11,784",
-   "price": "1,054",
+   "mcap": "11,901",
+   "price": "1,066",
    "range52": "1,914",
-   "pe": "60.7",
+   "pe": "61.3",
    "bookValue": "505",
    "yield": "0.24",
    "roce": "3.66",
@@ -5813,15 +5813,15 @@
     "public": "23.28%",
     "public_prev": "23.34%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ABSLAMC": {
-   "mcap": "25,070",
-   "price": "867",
+   "mcap": "25,150",
+   "price": "869",
    "range52": "1,225",
-   "pe": "25.0",
+   "pe": "25.1",
    "bookValue": "133",
-   "yield": "2.94",
+   "yield": "2.93",
    "roce": "32.7",
    "roe": "25.6",
    "faceValue": "5.00",
@@ -6038,15 +6038,15 @@
     "public": "5.90%",
     "public_prev": "7.85%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BANCOINDIA": {
-   "mcap": "8,444",
-   "price": "589",
+   "mcap": "8,370",
+   "price": "585",
    "range52": "865",
-   "pe": "20.3",
+   "pe": "20.2",
    "bookValue": "73.6",
-   "yield": "3.90",
+   "yield": "3.93",
    "roce": "49.1",
    "roe": "43.8",
    "faceValue": "2.00",
@@ -6261,13 +6261,13 @@
     "public": "27.85%",
     "public_prev": "27.83%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CPPLUS": {
-   "mcap": "48,763",
-   "price": "3,979",
+   "mcap": "49,411",
+   "price": "4,029",
    "range52": "4,620",
-   "pe": "108",
+   "pe": "110",
    "bookValue": "139",
    "yield": "0.04",
    "roce": "30.4",
@@ -6275,7 +6275,7 @@
    "faceValue": "1.00",
    "salesGrowth": "30%",
    "profitGrowth": "70%",
-   "priceCagr": "190%",
+   "priceCagr": "188%",
    "roeCalc": "30%",
    "quarters": {
     "periods": [
@@ -6484,13 +6484,13 @@
     "public": "5.30%",
     "public_prev": "4.78%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AEGISLOG": {
-   "mcap": "41,511",
-   "price": "1,183",
+   "mcap": "41,290",
+   "price": "1,176",
    "range52": "1,529",
-   "pe": "28.8",
+   "pe": "28.6",
    "bookValue": "113",
    "yield": "0.74",
    "roce": "33.4",
@@ -6707,13 +6707,13 @@
     "public": "18.78%",
     "public_prev": "18.67%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AEGISVOPAK": {
-   "mcap": "25,672",
-   "price": "232",
+   "mcap": "25,279",
+   "price": "228",
    "range52": "321",
-   "pe": "91.9",
+   "pe": "90.5",
    "bookValue": "44.7",
    "yield": "0.09",
    "roce": "6.52",
@@ -6721,7 +6721,7 @@
    "faceValue": "10.0",
    "salesGrowth": "30%",
    "profitGrowth": "279%",
-   "priceCagr": "-17%",
+   "priceCagr": "-16%",
    "roeCalc": "7%",
    "quarters": {
     "periods": [
@@ -6930,10 +6930,10 @@
     "public": "2.72%",
     "public_prev": "2.28%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AFCONS": {
-   "mcap": "7,659",
+   "mcap": "7,676",
    "price": "209",
    "range52": "458",
    "pe": "30.4",
@@ -7153,13 +7153,13 @@
     "public": "20.91%",
     "public_prev": "16.69%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AFFLE": {
-   "mcap": "20,316",
-   "price": "1,411",
+   "mcap": "20,390",
+   "price": "1,417",
    "range52": "1,961",
-   "pe": "140",
+   "pe": "141",
    "bookValue": "146",
    "yield": "0.00",
    "roce": "8.15",
@@ -7367,22 +7367,22 @@
    },
    "holding": {
     "period": "Oct 2026",
-    "promoter": "55.42%",
+    "promoter": "55.82%",
     "promoter_prev": "54.92%",
-    "fii": "14.36%",
+    "fii": "14.23%",
     "fii_prev": "16.66%",
-    "dii": "18.88%",
+    "dii": "18.71%",
     "dii_prev": "17.90%",
-    "public": "11.17%",
+    "public": "11.08%",
     "public_prev": "10.40%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AJANTPHARM": {
-   "mcap": "43,298",
+   "mcap": "43,233",
    "price": "3,460",
    "range52": "3,797",
-   "pe": "43.0",
+   "pe": "42.9",
    "bookValue": "338",
    "yield": "0.92",
    "roce": "31.0",
@@ -7601,13 +7601,13 @@
     "public": "6.96%",
     "public_prev": "7.14%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ALKEM": {
-   "mcap": "59,702",
+   "mcap": "60,619",
    "price": "5,070",
    "range52": "5,934",
-   "pe": "26.6",
+   "pe": "27.0",
    "bookValue": "1,171",
    "yield": "1.05",
    "roce": "19.9",
@@ -7826,13 +7826,13 @@
     "public": "17.14%",
     "public_prev": "17.25%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ABDL": {
-   "mcap": "19,668",
-   "price": "702",
+   "mcap": "19,596",
+   "price": "701",
    "range52": "767",
-   "pe": "67.7",
+   "pe": "67.4",
    "bookValue": "62.7",
    "yield": "0.77",
    "roce": "20.0",
@@ -7840,7 +7840,7 @@
    "faceValue": "2.00",
    "salesGrowth": "-9%",
    "profitGrowth": "116%",
-   "priceCagr": "15%",
+   "priceCagr": "8%",
    "roeCalc": "12%",
    "quarters": {
     "periods": [
@@ -8049,13 +8049,13 @@
     "public": "10.01%",
     "public_prev": "11.03%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ARE&M": {
-   "mcap": "12,983",
-   "price": "709",
+   "mcap": "12,961",
+   "price": "708",
    "range52": "1,023",
-   "pe": "16.6",
+   "pe": "16.5",
    "bookValue": "446",
    "yield": "1.50",
    "roce": "13.4",
@@ -8274,11 +8274,11 @@
     "public": "34.96%",
     "public_prev": "32.88%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AMBER": {
-   "mcap": "21,884",
-   "price": "6,205",
+   "mcap": "21,860",
+   "price": "6,198",
    "range52": "8,974",
    "pe": "148",
    "bookValue": "870",
@@ -8497,13 +8497,13 @@
     "public": "11.53%",
     "public_prev": "9.96%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AMBUJACEM": {
-   "mcap": "87,017",
-   "price": "351",
+   "mcap": "87,540",
+   "price": "352",
    "range52": "589",
-   "pe": "23.2",
+   "pe": "23.3",
    "bookValue": "213",
    "yield": "0.57",
    "roce": "3.29",
@@ -8722,13 +8722,13 @@
     "public": "7.66%",
     "public_prev": "6.36%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ANANDRATHI": {
-   "mcap": "37,660",
-   "price": "2,265",
+   "mcap": "37,505",
+   "price": "2,259",
    "range52": "2,290",
-   "pe": "83.0",
+   "pe": "82.7",
    "bookValue": "78.9",
    "yield": "0.29",
    "roce": "57.5",
@@ -8736,7 +8736,7 @@
    "faceValue": "5.00",
    "salesGrowth": "110%",
    "profitGrowth": "118%",
-   "priceCagr": "70%",
+   "priceCagr": "68%",
    "roeCalc": "41%",
    "quarters": {
     "periods": [
@@ -8947,11 +8947,11 @@
     "public": "42.16%",
     "public_prev": "42.01%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ANANTRAJ": {
-   "mcap": "16,686",
-   "price": "464",
+   "mcap": "16,673",
+   "price": "463",
    "range52": "657",
    "pe": "53.0",
    "bookValue": "144",
@@ -9172,15 +9172,15 @@
     "public": "27.08%",
     "public_prev": "26.89%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ANGELONE": {
-   "mcap": "26,692",
-   "price": "292",
+   "mcap": "26,615",
+   "price": "291",
    "range52": "360",
-   "pe": "20.7",
+   "pe": "20.6",
    "bookValue": "74.6",
-   "yield": "1.38",
+   "yield": "1.39",
    "roce": "15.6",
    "roe": "17.3",
    "faceValue": "1.00",
@@ -9397,13 +9397,13 @@
     "public": "39.35%",
     "public_prev": "39.52%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ANTHEM": {
-   "mcap": "46,811",
-   "price": "832",
+   "mcap": "46,909",
+   "price": "833",
    "range52": "978",
-   "pe": "72.9",
+   "pe": "73.0",
    "bookValue": "56.7",
    "yield": "0.24",
    "roce": "32.0",
@@ -9411,7 +9411,7 @@
    "faceValue": "2.00",
    "salesGrowth": "14%",
    "profitGrowth": "20%",
-   "priceCagr": "17%",
+   "priceCagr": "15%",
    "roeCalc": "25%",
    "quarters": {
     "periods": [
@@ -9620,13 +9620,13 @@
     "public": "12.71%",
     "public_prev": "12.48%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ANURAS": {
-   "mcap": "13,099",
+   "mcap": "13,109",
    "price": "1,151",
    "range52": "1,415",
-   "pe": "80.0",
+   "pe": "80.1",
    "bookValue": "284",
    "yield": "0.13",
    "roce": "6.96",
@@ -9843,13 +9843,13 @@
     "public": "30.00%",
     "public_prev": "33.65%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "APARINDS": {
-   "mcap": "64,481",
-   "price": "15,419",
+   "mcap": "65,060",
+   "price": "15,538",
    "range52": "19,269",
-   "pe": "54.0",
+   "pe": "54.5",
    "bookValue": "1,285",
    "yield": "0.39",
    "roce": "32.9",
@@ -10068,13 +10068,13 @@
     "public": "8.22%",
     "public_prev": "8.71%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "APOLLOHOSP": {
-   "mcap": "1,16,870",
-   "price": "8,137",
+   "mcap": "1,17,022",
+   "price": "8,139",
    "range52": "9,327",
-   "pe": "74.0",
+   "pe": "74.1",
    "bookValue": "693",
    "yield": "0.25",
    "roce": "17.0",
@@ -10293,15 +10293,15 @@
     "public": "6.49%",
     "public_prev": "6.39%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "APOLLOTYRE": {
-   "mcap": "24,569",
-   "price": "387",
+   "mcap": "24,702",
+   "price": "389",
    "range52": "540",
    "pe": "12.7",
    "bookValue": "187",
-   "yield": "1.55",
+   "yield": "1.54",
    "roce": "15.7",
    "roe": "16.7",
    "faceValue": "1.00",
@@ -10518,15 +10518,15 @@
     "public": "17.68%",
     "public_prev": "21.38%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "APTUS": {
-   "mcap": "9,934",
-   "price": "199",
+   "mcap": "10,012",
+   "price": "200",
    "range52": "323",
-   "pe": "13.6",
+   "pe": "13.7",
    "bookValue": "85.4",
-   "yield": "2.27",
+   "yield": "2.26",
    "roce": "14.4",
    "roe": "17.2",
    "faceValue": "2.00",
@@ -10693,13 +10693,13 @@
     "public": "17.77%",
     "public_prev": "16.35%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ASAHIINDIA": {
-   "mcap": "23,455",
+   "mcap": "23,430",
    "price": "919",
    "range52": "1,074",
-   "pe": "54.2",
+   "pe": "54.1",
    "bookValue": "158",
    "yield": "0.22",
    "roce": "11.1",
@@ -10918,15 +10918,15 @@
     "public": "38.66%",
     "public_prev": "38.23%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ASHOKLEY": {
-   "mcap": "85,083",
-   "price": "145",
+   "mcap": "84,877",
+   "price": "144",
    "range52": "215",
-   "pe": "22.2",
+   "pe": "22.1",
    "bookValue": "22.3",
-   "yield": "2.42",
+   "yield": "2.43",
    "roce": "38.1",
    "roe": "30.2",
    "faceValue": "1.00",
@@ -11143,13 +11143,13 @@
     "public": "11.89%",
     "public_prev": "10.79%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ASIANPAINT": {
-   "mcap": "2,17,856",
-   "price": "2,285",
+   "mcap": "2,18,702",
+   "price": "2,280",
    "range52": "2,986",
-   "pe": "45.9",
+   "pe": "46.1",
    "bookValue": "217",
    "yield": "1.20",
    "roce": "27.8",
@@ -11368,13 +11368,13 @@
     "public": "13.03%",
     "public_prev": "13.39%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ASTERDM": {
-   "mcap": "58,192",
-   "price": "669",
+   "mcap": "58,398",
+   "price": "670",
    "range52": "891",
-   "pe": "188",
+   "pe": "189",
    "bookValue": "77.0",
    "yield": "0.45",
    "roce": "10.9",
@@ -11591,13 +11591,13 @@
     "public": "12.17%",
     "public_prev": "14.61%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ASTRAL": {
-   "mcap": "37,257",
-   "price": "1,361",
+   "mcap": "36,630",
+   "price": "1,364",
    "range52": "1,769",
-   "pe": "56.1",
+   "pe": "55.2",
    "bookValue": "153",
    "yield": "0.29",
    "roce": "21.9",
@@ -11816,11 +11816,11 @@
     "public": "10.56%",
     "public_prev": "9.99%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ATHERENERG": {
-   "mcap": "65,604",
-   "price": "1,650",
+   "mcap": "65,683",
+   "price": "1,655",
    "range52": "1,744",
    "bookValue": "108",
    "yield": "0.00",
@@ -11829,7 +11829,7 @@
    "faceValue": "1.00",
    "salesGrowth": "115%",
    "profitGrowth": "12%",
-   "priceCagr": "124%",
+   "priceCagr": "134%",
    "roeCalc": "-102%",
    "quarters": {
     "periods": [
@@ -12038,13 +12038,13 @@
     "public": "15.56%",
     "public_prev": "13.03%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ATUL": {
-   "mcap": "15,431",
-   "price": "5,226",
+   "mcap": "15,360",
+   "price": "5,217",
    "range52": "7,198",
-   "pe": "23.1",
+   "pe": "23.0",
    "bookValue": "2,158",
    "yield": "0.57",
    "roce": "13.2",
@@ -12263,13 +12263,13 @@
     "public": "20.53%",
     "public_prev": "21.37%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AUROPHARMA": {
-   "mcap": "94,319",
-   "price": "1,645",
+   "mcap": "94,109",
+   "price": "1,636",
    "range52": "1,740",
-   "pe": "36.2",
+   "pe": "36.1",
    "bookValue": "391",
    "yield": "0.24",
    "roce": "13.0",
@@ -12488,10 +12488,10 @@
     "public": "6.29%",
     "public_prev": "7.08%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AIIL": {
-   "mcap": "41,947",
+   "mcap": "41,956",
    "price": "494",
    "range52": "684",
    "pe": "20.0",
@@ -12663,11 +12663,11 @@
     "public": "16.59%",
     "public_prev": "16.76%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "DMART": {
-   "mcap": "2,04,427",
-   "price": "3,134",
+   "mcap": "2,04,473",
+   "price": "3,135",
    "range52": "4,644",
    "pe": "60.4",
    "bookValue": "418",
@@ -12888,11 +12888,11 @@
     "public": "7.60%",
     "public_prev": "7.64%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "AXISBANK": {
-   "mcap": "3,79,740",
-   "price": "1,220",
+   "mcap": "3,78,158",
+   "price": "1,214",
    "range52": "1,418",
    "pe": "13.7",
    "bookValue": "703",
@@ -13063,15 +13063,15 @@
     "public": "9.53%",
     "public_prev": "6.44%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BEML": {
-   "mcap": "16,349",
-   "price": "1,965",
+   "mcap": "16,301",
+   "price": "1,957",
    "range52": "2,268",
-   "pe": "88.8",
+   "pe": "88.5",
    "bookValue": "349",
-   "yield": "0.87",
+   "yield": "0.88",
    "roce": "7.92",
    "roe": "5.04",
    "faceValue": "5.00",
@@ -13286,7 +13286,7 @@
     "public": "19.20%",
     "public_prev": "21.68%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BLS": {
    "mcap": "8,955",
@@ -13509,7 +13509,7 @@
     "public": "22.58%",
     "public_prev": "20.42%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BSE": {
    "mcap": "1,42,148",
@@ -13732,11 +13732,11 @@
     "public": "56.70%",
     "public_prev": "55.40%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BAJAJ-AUTO": {
-   "mcap": "2,88,493",
-   "price": "10,485",
+   "mcap": "2,88,544",
+   "price": "10,500",
    "range52": "12,470",
    "pe": "24.9",
    "bookValue": "1,171",
@@ -13957,13 +13957,13 @@
     "public": "21.88%",
     "public_prev": "21.62%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BAJFINANCE": {
-   "mcap": "5,70,450",
-   "price": "917",
+   "mcap": "5,66,500",
+   "price": "910",
    "range52": "1,178",
-   "pe": "29.3",
+   "pe": "29.1",
    "bookValue": "178",
    "yield": "0.59",
    "roce": "11.2",
@@ -14134,12 +14134,12 @@
     "public": "8.46%",
     "public_prev": "8.73%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BAJAJFINSV": {
-   "mcap": "2,64,252",
-   "price": "1,652",
-   "range52": "2,150",
+   "mcap": "2,63,948",
+   "price": "1,648",
+   "range52": "2,146",
    "pe": "119",
    "bookValue": "63.6",
    "yield": "0.09",
@@ -14357,15 +14357,15 @@
     "public": "21.98%",
     "public_prev": "22.16%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BAJAJHLDNG": {
-   "mcap": "1,17,152",
-   "price": "10,461",
+   "mcap": "1,15,629",
+   "price": "10,390",
    "range52": "13,250",
-   "pe": "38.8",
+   "pe": "38.3",
    "bookValue": "2,454",
-   "yield": "1.39",
+   "yield": "1.40",
    "roce": "12.8",
    "roe": "11.1",
    "faceValue": "10.0",
@@ -14580,13 +14580,13 @@
     "public": "30.53%",
     "public_prev": "30.85%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BAJAJHFL": {
-   "mcap": "64,484",
-   "price": "77.5",
+   "mcap": "64,734",
+   "price": "77.7",
    "range52": "112",
-   "pe": "22.9",
+   "pe": "23.0",
    "bookValue": "28.8",
    "yield": "0.00",
    "roce": "8.85",
@@ -14594,7 +14594,7 @@
    "faceValue": "10.0",
    "salesGrowth": "29%",
    "profitGrowth": "41%",
-   "priceCagr": "-29%",
+   "priceCagr": "-30%",
    "roeCalc": "13%",
    "quarters": {
     "periods": [
@@ -14757,13 +14757,13 @@
     "public": "11.26%",
     "public_prev": "11.10%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BALKRISIND": {
-   "mcap": "40,828",
-   "price": "2,102",
+   "mcap": "40,412",
+   "price": "2,090",
    "range52": "2,775",
-   "pe": "29.9",
+   "pe": "29.6",
    "bookValue": "567",
    "yield": "0.76",
    "roce": "11.0",
@@ -14982,13 +14982,13 @@
     "public": "7.18%",
     "public_prev": "6.32%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BALRAMCHIN": {
-   "mcap": "13,376",
-   "price": "633",
+   "mcap": "13,436",
+   "price": "635",
    "range52": "781",
-   "pe": "39.0",
+   "pe": "39.2",
    "bookValue": "193",
    "yield": "0.55",
    "roce": "9.04",
@@ -15205,13 +15205,13 @@
     "public": "17.32%",
     "public_prev": "19.03%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BANDHANBNK": {
-   "mcap": "25,033",
-   "price": "155",
+   "mcap": "25,094",
+   "price": "156",
    "range52": "221",
-   "pe": "13.4",
+   "pe": "13.5",
    "bookValue": "162",
    "yield": "0.97",
    "roce": "6.41",
@@ -15382,15 +15382,15 @@
     "public": "16.51%",
     "public_prev": "16.55%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BANKBARODA": {
-   "mcap": "1,20,361",
-   "price": "232",
+   "mcap": "1,20,881",
+   "price": "234",
    "range52": "326",
-   "pe": "5.79",
+   "pe": "5.81",
    "bookValue": "300",
-   "yield": "3.67",
+   "yield": "3.65",
    "roce": "5.66",
    "roe": "13.8",
    "faceValue": "2.00",
@@ -15559,15 +15559,15 @@
     "public": "7.81%",
     "public_prev": "7.33%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BANKINDIA": {
-   "mcap": "60,744",
-   "price": "133",
+   "mcap": "60,915",
+   "price": "134",
    "range52": "178",
-   "pe": "5.07",
+   "pe": "5.09",
    "bookValue": "202",
-   "yield": "3.50",
+   "yield": "3.47",
    "roce": "5.92",
    "roe": "12.4",
    "faceValue": "10.0",
@@ -15734,15 +15734,15 @@
     "public": "5.66%",
     "public_prev": "5.40%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "EMBASSY": {
-   "mcap": "39,306",
-   "price": "414",
+   "mcap": "39,622",
+   "price": "418",
    "range52": "462",
-   "pe": "36.7",
+   "pe": "37.0",
    "bookValue": "219",
-   "yield": "0.05",
+   "yield": "0.11",
    "roce": "6.58",
    "roe": "5.92",
    "faceValue": "10.0",
@@ -15946,11 +15946,11 @@
      ]
     }
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "HCC": {
-   "mcap": "4,587",
-   "price": "17.5",
+   "mcap": "4,571",
+   "price": "17.4",
    "range52": "28.5",
    "pe": "24.0",
    "bookValue": "11.8",
@@ -16169,15 +16169,15 @@
     "public": "70.36%",
     "public_prev": "68.24%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "INDIGRID": {
-   "mcap": "19,115",
+   "mcap": "19,226",
    "price": "169",
    "range52": "181",
    "pe": "12.6",
    "bookValue": "112",
-   "yield": "3.33",
+   "yield": "3.32",
    "roce": "10.0",
    "roe": "14.3",
    "faceValue": "136",
@@ -16381,13 +16381,13 @@
      ]
     }
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "LLOYDSENGG": {
-   "mcap": "13,001",
-   "price": "83.8",
+   "mcap": "12,911",
+   "price": "83.2",
    "range52": "104",
-   "pe": "90.2",
+   "pe": "89.6",
    "bookValue": "11.4",
    "yield": "0.30",
    "roce": "14.6",
@@ -16604,15 +16604,15 @@
     "public": "56.85%",
     "public_prev": "52.21%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "MAHABANK": {
-   "mcap": "62,312",
-   "price": "80.0",
+   "mcap": "61,802",
+   "price": "80.4",
    "range52": "94.5",
-   "pe": "7.67",
+   "pe": "7.61",
    "bookValue": "48.6",
-   "yield": "2.75",
+   "yield": "2.74",
    "roce": "6.03",
    "roe": "22.8",
    "faceValue": "10.0",
@@ -16779,13 +16779,13 @@
     "public": "6.14%",
     "public_prev": "6.93%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BATAINDIA": {
-   "mcap": "8,545",
+   "mcap": "8,493",
    "price": "661",
-   "range52": "1,106",
-   "pe": "49.3",
+   "range52": "1,084",
+   "pe": "49.0",
    "bookValue": "123",
    "yield": "3.78",
    "roce": "12.8",
@@ -17002,15 +17002,15 @@
     "public": "17.91%",
     "public_prev": "15.02%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BAYERCROP": {
-   "mcap": "14,766",
-   "price": "3,282",
+   "mcap": "14,814",
+   "price": "3,296",
    "range52": "5,063",
    "pe": "20.2",
    "bookValue": "660",
-   "yield": "4.57",
+   "yield": "4.55",
    "roce": "29.1",
    "roe": "23.7",
    "faceValue": "10.0",
@@ -17225,13 +17225,13 @@
     "public": "13.09%",
     "public_prev": "12.79%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BELRISE": {
-   "mcap": "20,486",
-   "price": "212",
+   "mcap": "20,407",
+   "price": "211",
    "range52": "268",
-   "pe": "41.5",
+   "pe": "41.3",
    "bookValue": "57.1",
    "yield": "0.00",
    "roce": "13.8",
@@ -17239,7 +17239,7 @@
    "faceValue": "5.00",
    "salesGrowth": "13%",
    "profitGrowth": "23%",
-   "priceCagr": "42%",
+   "priceCagr": "41%",
    "roeCalc": "14%",
    "quarters": {
     "periods": [
@@ -17448,13 +17448,13 @@
     "public": "13.41%",
     "public_prev": "14.51%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BERGEPAINT": {
-   "mcap": "53,730",
-   "price": "462",
+   "mcap": "53,630",
+   "price": "460",
    "range52": "595",
-   "pe": "45.5",
+   "pe": "45.4",
    "bookValue": "54.4",
    "yield": "0.87",
    "roce": "22.9",
@@ -17671,13 +17671,13 @@
     "public": "8.38%",
     "public_prev": "8.63%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BDL": {
-   "mcap": "36,418",
-   "price": "992",
+   "mcap": "36,321",
+   "price": "991",
    "range52": "1,633",
-   "pe": "69.9",
+   "pe": "69.8",
    "bookValue": "116",
    "yield": "0.49",
    "roce": "13.9",
@@ -17894,13 +17894,13 @@
     "public": "12.52%",
     "public_prev": "12.10%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BEL": {
-   "mcap": "2,65,457",
-   "price": "363",
+   "mcap": "2,66,441",
+   "price": "364",
    "range52": "473",
-   "pe": "43.3",
+   "pe": "43.5",
    "bookValue": "32.4",
    "yield": "0.69",
    "roce": "37.0",
@@ -18117,13 +18117,13 @@
     "public": "10.00%",
     "public_prev": "9.37%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BHARATFORG": {
-   "mcap": "86,645",
-   "price": "1,760",
+   "mcap": "85,576",
+   "price": "1,751",
    "range52": "2,295",
-   "pe": "70.2",
+   "pe": "69.3",
    "bookValue": "230",
    "yield": "0.48",
    "roce": "12.8",
@@ -18342,13 +18342,13 @@
     "public": "8.63%",
     "public_prev": "9.00%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BHEL": {
-   "mcap": "1,41,446",
-   "price": "405",
+   "mcap": "1,40,432",
+   "price": "403",
    "range52": "464",
-   "pe": "49.5",
+   "pe": "49.1",
    "bookValue": "77.9",
    "yield": "0.35",
    "roce": "8.98",
@@ -18567,15 +18567,15 @@
     "public": "10.02%",
     "public_prev": "10.63%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BPCL": {
-   "mcap": "1,24,642",
+   "mcap": "1,24,689",
    "price": "287",
    "range52": "392",
-   "pe": "9.12",
+   "pe": "9.11",
    "bookValue": "222",
-   "yield": "6.10",
+   "yield": "6.09",
    "roce": "32.1",
    "roe": "29.9",
    "faceValue": "10.0",
@@ -18792,15 +18792,15 @@
     "public": "7.92%",
     "public_prev": "8.48%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BHARTIARTL": {
-   "mcap": "12,16,421",
-   "price": "1,948",
+   "mcap": "12,26,852",
+   "price": "1,966",
    "range52": "2,175",
-   "pe": "70.6",
+   "pe": "71.2",
    "bookValue": "263",
-   "yield": "1.23",
+   "yield": "1.22",
    "roce": "12.7",
    "roe": "10.7",
    "faceValue": "5.00",
@@ -19017,21 +19017,21 @@
     "public": "2.70%",
     "public_prev": "2.63%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BHARTIHEXA": {
-   "mcap": "83,203",
-   "price": "1,665",
-   "range52": "1,956",
-   "pe": "45.0",
+   "mcap": "82,050",
+   "price": "1,641",
+   "range52": "1,925",
+   "pe": "44.4",
    "bookValue": "143",
-   "yield": "1.08",
+   "yield": "1.10",
    "roce": "21.4",
    "roe": "26.0",
    "faceValue": "5.00",
    "salesGrowth": "15%",
    "profitGrowth": "35%",
-   "priceCagr": "-10%",
+   "priceCagr": "-13%",
    "roeCalc": "17%",
    "quarters": {
     "periods": [
@@ -19240,13 +19240,13 @@
     "public": "15.73%",
     "public_prev": "15.71%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BIKAJI": {
-   "mcap": "11,558",
-   "price": "461",
+   "mcap": "11,464",
+   "price": "457",
    "range52": "768",
-   "pe": "41.7",
+   "pe": "41.3",
    "bookValue": "66.8",
    "yield": "0.27",
    "roce": "22.0",
@@ -19254,7 +19254,7 @@
    "faceValue": "1.00",
    "salesGrowth": "18%",
    "profitGrowth": "21%",
-   "priceCagr": "0%",
+   "priceCagr": "-1%",
    "roeCalc": "17%",
    "quarters": {
     "periods": [
@@ -19463,13 +19463,13 @@
     "public": "4.05%",
     "public_prev": "4.15%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "GROWW": {
-   "mcap": "1,19,335",
-   "price": "190",
+   "mcap": "1,19,983",
+   "price": "191",
    "range52": "227",
-   "pe": "56.4",
+   "pe": "56.7",
    "bookValue": "15.2",
    "yield": "0.00",
    "roce": "35.1",
@@ -19685,13 +19685,13 @@
     "public": "48.23%",
     "public_prev": "62.88%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BIOCON": {
-   "mcap": "56,922",
-   "price": "351",
+   "mcap": "57,365",
+   "price": "352",
    "range52": "447",
-   "pe": "189",
+   "pe": "190",
    "bookValue": "167",
    "yield": "0.14",
    "roce": "1.62",
@@ -19910,15 +19910,15 @@
     "public": "17.20%",
     "public_prev": "23.40%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BSOFT": {
-   "mcap": "8,601",
-   "price": "306",
+   "mcap": "9,316",
+   "price": "333",
    "range52": "474",
-   "pe": "19.4",
+   "pe": "20.2",
    "bookValue": "64.1",
-   "yield": "2.12",
+   "yield": "1.95",
    "roce": "23.8",
    "roe": "18.6",
    "faceValue": "2.00",
@@ -19928,53 +19928,53 @@
    "roeCalc": "16%",
    "quarters": {
     "periods": [
-     "Sep 2025",
      "Dec 2025",
      "Mar 2026",
-     "Jun 2026"
+     "Jun 2026",
+     "Sep 2026"
     ],
     "rows": {
      "Sales": [
-      "690",
       "750",
       "756",
-      "829"
+      "829",
+      "858"
      ],
      "Expenses": [
-      "583",
       "606",
       "619",
-      "647"
+      "647",
+      "704"
      ],
      "Operating Profit": [
-      "107",
       "144",
       "136",
-      "182"
+      "182",
+      "155"
      ],
      "OPM %": [
-      "16%",
       "19%",
       "18%",
-      "22%"
+      "22%",
+      "18%"
      ],
      "Net Profit": [
-      "101",
       "66",
       "99",
-      "147"
+      "147",
+      "120"
      ],
      "Profit before tax": [
-      "133",
       "88",
       "131",
-      "196"
+      "196",
+      "165"
      ],
      "EPS in Rs": [
-      "3.61",
       "2.35",
       "3.53",
-      "5.25"
+      "5.25",
+      "4.31"
      ]
     }
    },
@@ -19990,19 +19990,19 @@
       "2,645",
       "2,658",
       "2,822",
-      "3,025"
+      "3,193"
      ],
      "Expenses": [
       "2,263",
       "2,325",
       "2,390",
-      "2,455"
+      "2,576"
      ],
      "Operating Profit": [
       "381",
       "333",
       "432",
-      "569"
+      "617"
      ],
      "OPM %": [
       "14%",
@@ -20014,19 +20014,19 @@
       "299",
       "299",
       "302",
-      "412"
+      "432"
      ],
      "Profit before tax": [
       "396",
       "388",
       "401",
-      "548"
+      "580"
      ],
      "EPS in Rs": [
       "10.83",
       "10.74",
       "10.79",
-      "14.74"
+      "15.44"
      ]
     }
    },
@@ -20135,11 +20135,11 @@
     "public": "27.72%",
     "public_prev": "22.60%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BLUEDART": {
-   "mcap": "10,121",
-   "price": "4,272",
+   "mcap": "10,122",
+   "price": "4,266",
    "range52": "7,036",
    "pe": "31.9",
    "bookValue": "772",
@@ -20358,11 +20358,11 @@
     "public": "7.39%",
     "public_prev": "7.04%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BLUEJET": {
-   "mcap": "9,785",
-   "price": "518",
+   "mcap": "9,772",
+   "price": "516",
    "range52": "688",
    "pe": "41.6",
    "bookValue": "78.4",
@@ -20372,7 +20372,7 @@
    "faceValue": "2.00",
    "salesGrowth": "14%",
    "profitGrowth": "11%",
-   "priceCagr": "-19%",
+   "priceCagr": "-21%",
    "roeCalc": "26%",
    "quarters": {
     "periods": [
@@ -20581,15 +20581,15 @@
     "public": "18.56%",
     "public_prev": "14.80%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BLUESTARCO": {
-   "mcap": "33,048",
-   "price": "1,598",
+   "mcap": "32,948",
+   "price": "1,602",
    "range52": "2,030",
-   "pe": "91.9",
+   "pe": "91.6",
    "bookValue": "149",
-   "yield": "0.53",
+   "yield": "0.52",
    "roce": "17.4",
    "roe": "14.0",
    "faceValue": "2.00",
@@ -20806,15 +20806,15 @@
     "public": "22.09%",
     "public_prev": "21.92%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BBTC": {
-   "mcap": "8,219",
-   "price": "1,179",
+   "mcap": "8,263",
+   "price": "1,184",
    "range52": "2,050",
    "pe": "103",
    "bookValue": "40.6",
-   "yield": "1.44",
+   "yield": "1.43",
    "roce": "19.6",
    "roe": "30.8",
    "faceValue": "2.00",
@@ -21029,15 +21029,15 @@
     "public": "15.53%",
     "public_prev": "15.01%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BOSCHLTD": {
-   "mcap": "1,40,784",
-   "price": "47,625",
+   "mcap": "1,38,632",
+   "price": "47,000",
    "range52": "50,000",
-   "pe": "59.7",
+   "pe": "58.8",
    "bookValue": "5,034",
-   "yield": "0.57",
+   "yield": "0.58",
    "roce": "21.5",
    "roe": "14.6",
    "faceValue": "10.0",
@@ -21252,13 +21252,13 @@
     "public": "7.07%",
     "public_prev": "7.18%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "FIRSTCRY": {
-   "mcap": "8,665",
-   "price": "166",
+   "mcap": "8,622",
+   "price": "165",
    "range52": "358",
-   "pe": "89.1",
+   "pe": "88.7",
    "bookValue": "122",
    "yield": "0.00",
    "roce": "2.02",
@@ -21473,13 +21473,13 @@
     "public": "65.34%",
     "public_prev": "65.75%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BRIGADE": {
-   "mcap": "17,523",
-   "price": "538",
+   "mcap": "17,346",
+   "price": "532",
    "range52": "802",
-   "pe": "50.0",
+   "pe": "49.5",
    "bookValue": "195",
    "yield": "0.37",
    "roce": "5.82",
@@ -21696,13 +21696,13 @@
     "public": "17.57%",
     "public_prev": "17.40%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "BRITANNIA": {
-   "mcap": "1,10,012",
-   "price": "4,567",
+   "mcap": "1,09,809",
+   "price": "4,559",
    "range52": "6,271",
-   "pe": "41.7",
+   "pe": "41.6",
    "bookValue": "193",
    "yield": "1.98",
    "roce": "61.4",
@@ -21921,10 +21921,10 @@
     "public": "15.05%",
     "public_prev": "14.94%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "MAPMYINDIA": {
-   "mcap": "4,551",
+   "mcap": "4,553",
    "price": "831",
    "range52": "1,845",
    "pe": "31.8",
@@ -22144,13 +22144,13 @@
     "public": "34.68%",
     "public_prev": "31.12%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CCL": {
-   "mcap": "12,534",
-   "price": "938",
+   "mcap": "12,283",
+   "price": "920",
    "range52": "1,242",
-   "pe": "60.0",
+   "pe": "58.8",
    "bookValue": "105",
    "yield": "0.61",
    "roce": "20.6",
@@ -22367,15 +22367,15 @@
     "public": "20.18%",
     "public_prev": "20.97%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CESC": {
-   "mcap": "16,392",
-   "price": "124",
+   "mcap": "16,828",
+   "price": "127",
    "range52": "204",
-   "pe": "19.0",
+   "pe": "19.6",
    "bookValue": "73.3",
-   "yield": "4.85",
+   "yield": "4.73",
    "roce": "9.95",
    "roe": "8.55",
    "faceValue": "1.00",
@@ -22592,13 +22592,13 @@
     "public": "11.45%",
     "public_prev": "10.05%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CGPOWER": {
-   "mcap": "1,31,190",
-   "price": "832",
+   "mcap": "1,29,858",
+   "price": "824",
    "range52": "981",
-   "pe": "84.0",
+   "pe": "83.1",
    "bookValue": "57.6",
    "yield": "0.16",
    "roce": "28.8",
@@ -22817,15 +22817,15 @@
     "public": "13.55%",
     "public_prev": "13.53%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CIEINDIA": {
-   "mcap": "13,805",
-   "price": "364",
+   "mcap": "13,591",
+   "price": "358",
    "range52": "526",
-   "pe": "20.6",
+   "pe": "20.3",
    "bookValue": "153",
-   "yield": "1.92",
+   "yield": "1.96",
    "roce": "14.5",
    "roe": "11.2",
    "faceValue": "10.0",
@@ -23042,12 +23042,12 @@
     "public": "8.82%",
     "public_prev": "8.20%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CRISIL": {
-   "mcap": "34,210",
-   "price": "4,671",
-   "range52": "5,000",
+   "mcap": "34,209",
+   "price": "4,678",
+   "range52": "4,995",
    "pe": "58.5",
    "bookValue": "280",
    "yield": "0.77",
@@ -23265,15 +23265,15 @@
     "public": "13.79%",
     "public_prev": "13.57%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CANFINHOME": {
-   "mcap": "9,648",
-   "price": "725",
+   "mcap": "9,626",
+   "price": "723",
    "range52": "972",
-   "pe": "8.37",
+   "pe": "8.35",
    "bookValue": "482",
-   "yield": "2.07",
+   "yield": "2.08",
    "roce": "9.14",
    "roe": "19.7",
    "faceValue": "2.00",
@@ -23440,15 +23440,15 @@
     "public": "34.04%",
     "public_prev": "32.04%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CANBK": {
-   "mcap": "1,06,699",
-   "price": "118",
+   "mcap": "1,07,669",
+   "price": "119",
    "range52": "163",
-   "pe": "5.42",
+   "pe": "5.46",
    "bookValue": "136",
-   "yield": "3.56",
+   "yield": "3.53",
    "roce": "6.55",
    "roe": "18.1",
    "faceValue": "2.00",
@@ -23615,21 +23615,21 @@
     "public": "12.43%",
     "public_prev": "11.93%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CANHLIFE": {
-   "mcap": "11,788",
-   "price": "124",
+   "mcap": "11,704",
+   "price": "123",
    "range52": "167",
-   "pe": "88.3",
+   "pe": "87.6",
    "bookValue": "17.2",
-   "yield": "0.32",
+   "yield": "0.31",
    "roce": "8.35",
    "roe": "8.11",
    "faceValue": "10.0",
    "salesGrowth": "5%",
    "profitGrowth": "6%",
-   "priceCagr": "3%",
+   "priceCagr": "5%",
    "roeCalc": "7%",
    "quarters": {
     "periods": [
@@ -23802,8 +23802,8 @@
       "689"
      ],
      "Borrowings": [
-      "0",
-      "0",
+      "-0",
+      "-0",
       "250",
       "250"
      ],
@@ -23838,13 +23838,13 @@
     "public": "2.50%",
     "public_prev": "2.28%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CAPLIPOINT": {
-   "mcap": "17,945",
-   "price": "2,363",
+   "mcap": "17,851",
+   "price": "2,348",
    "range52": "2,991",
-   "pe": "42.8",
+   "pe": "42.5",
    "bookValue": "270",
    "yield": "0.34",
    "roce": "26.5",
@@ -24061,13 +24061,13 @@
     "public": "21.52%",
     "public_prev": "21.14%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CGCL": {
-   "mcap": "22,308",
+   "mcap": "22,312",
    "price": "232",
    "range52": "288",
-   "pe": "19.7",
+   "pe": "19.8",
    "bookValue": "76.8",
    "yield": "0.09",
    "roce": "11.7",
@@ -24238,13 +24238,13 @@
     "public": "10.03%",
     "public_prev": "14.33%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CARBORUNIV": {
-   "mcap": "20,688",
-   "price": "1,086",
+   "mcap": "20,518",
+   "price": "1,077",
    "range52": "1,369",
-   "pe": "57.6",
+   "pe": "57.1",
    "bookValue": "153",
    "yield": "0.37",
    "roce": "19.2",
@@ -24463,13 +24463,13 @@
     "public": "21.30%",
     "public_prev": "20.91%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CARTRADE": {
-   "mcap": "11,983",
-   "price": "2,464",
+   "mcap": "11,338",
+   "price": "2,332",
    "range52": "3,291",
-   "pe": "92.7",
+   "pe": "87.7",
    "bookValue": "494",
    "yield": "0.00",
    "roce": "6.55",
@@ -24684,15 +24684,15 @@
     "public": "29.40%",
     "public_prev": "27.79%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CASTROLIND": {
-   "mcap": "18,715",
-   "price": "189",
+   "mcap": "18,630",
+   "price": "188",
    "range52": "203",
    "pe": "18.2",
    "bookValue": "19.3",
-   "yield": "4.63",
+   "yield": "4.64",
    "roce": "60.3",
    "roe": "45.9",
    "faceValue": "5.00",
@@ -24909,11 +24909,11 @@
     "public": "25.26%",
     "public_prev": "25.85%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CEATLTD": {
-   "mcap": "12,679",
-   "price": "3,135",
+   "mcap": "12,693",
+   "price": "3,138",
    "range52": "4,199",
    "pe": "15.8",
    "bookValue": "1,270",
@@ -25134,13 +25134,13 @@
     "public": "15.69%",
     "public_prev": "14.99%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CEMPRO": {
-   "mcap": "22,675",
-   "price": "1,230",
+   "mcap": "22,765",
+   "price": "1,234",
    "range52": "1,650",
-   "pe": "38.2",
+   "pe": "38.3",
    "bookValue": "139",
    "yield": "0.24",
    "roce": "32.6",
@@ -25357,13 +25357,13 @@
     "public": "19.87%",
     "public_prev": "23.28%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CENTRALBK": {
-   "mcap": "26,159",
-   "price": "28.9",
+   "mcap": "26,276",
+   "price": "29.0",
    "range52": "40.9",
-   "pe": "5.47",
+   "pe": "5.49",
    "bookValue": "45.4",
    "yield": "4.15",
    "roce": "5.61",
@@ -25532,7 +25532,7 @@
     "public": "6.91%",
     "public_prev": "5.16%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CDSL": {
    "mcap": "25,749",
@@ -25755,15 +25755,15 @@
     "public": "58.56%",
     "public_prev": "59.22%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CHALET": {
-   "mcap": "17,595",
-   "price": "802",
+   "mcap": "17,178",
+   "price": "784",
    "range52": "978",
-   "pe": "31.7",
+   "pe": "31.0",
    "bookValue": "171",
-   "yield": "0.25",
+   "yield": "0.26",
    "roce": "17.7",
    "roe": "19.4",
    "faceValue": "10.0",
@@ -25978,13 +25978,13 @@
     "public": "3.05%",
     "public_prev": "3.43%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CHAMBLFERT": {
-   "mcap": "14,397",
-   "price": "360",
+   "mcap": "14,375",
+   "price": "359",
    "range52": "498",
-   "pe": "7.14",
+   "pe": "7.15",
    "bookValue": "254",
    "yield": "3.06",
    "roce": "25.8",
@@ -26201,15 +26201,15 @@
     "public": "18.56%",
     "public_prev": "18.27%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CHENNPETRO": {
-   "mcap": "22,657",
-   "price": "1,521",
+   "mcap": "22,295",
+   "price": "1,497",
    "range52": "1,678",
-   "pe": "3.99",
+   "pe": "3.93",
    "bookValue": "893",
-   "yield": "4.08",
+   "yield": "4.15",
    "roce": "35.4",
    "roe": "32.4",
    "faceValue": "10.0",
@@ -26426,13 +26426,13 @@
     "public": "15.76%",
     "public_prev": "18.00%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CHOICEIN": {
-   "mcap": "16,306",
-   "price": "732",
+   "mcap": "16,356",
+   "price": "734",
    "range52": "860",
-   "pe": "999",
+   "pe": "1,001",
    "bookValue": "46.5",
    "yield": "0.00",
    "roce": "1.22",
@@ -26651,13 +26651,13 @@
     "public": "36.08%",
     "public_prev": "34.59%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CHOLAHLDNG": {
-   "mcap": "24,505",
-   "price": "1,304",
+   "mcap": "24,672",
+   "price": "1,314",
    "range52": "2,064",
-   "pe": "337",
+   "pe": "339",
    "bookValue": "74.5",
    "yield": "0.10",
    "roce": "6.25",
@@ -26828,13 +26828,13 @@
     "public": "12.80%",
     "public_prev": "13.26%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CHOLAFIN": {
-   "mcap": "1,31,355",
-   "price": "1,545",
+   "mcap": "1,33,957",
+   "price": "1,568",
    "range52": "1,952",
-   "pe": "21.2",
+   "pe": "21.6",
    "bookValue": "403",
    "yield": "0.13",
    "roce": "9.70",
@@ -27003,15 +27003,15 @@
     "public": "5.82%",
     "public_prev": "5.95%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CIPLA": {
-   "mcap": "1,10,323",
-   "price": "1,366",
+   "mcap": "1,09,870",
+   "price": "1,360",
    "range52": "1,599",
-   "pe": "38.6",
+   "pe": "38.5",
    "bookValue": "432",
-   "yield": "0.95",
+   "yield": "0.96",
    "roce": "13.7",
    "roe": "10.4",
    "faceValue": "2.00",
@@ -27228,15 +27228,15 @@
     "public": "15.60%",
     "public_prev": "16.26%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CUB": {
-   "mcap": "21,284",
-   "price": "215",
+   "mcap": "22,466",
+   "price": "227",
    "range52": "249",
-   "pe": "14.3",
+   "pe": "15.0",
    "bookValue": "113",
-   "yield": "0.93",
+   "yield": "0.89",
    "roce": "6.74",
    "roe": "13.2",
    "faceValue": "1.00",
@@ -27401,13 +27401,13 @@
     "public": "34.61%",
     "public_prev": "35.90%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CLEAN": {
-   "mcap": "7,855",
-   "price": "738",
-   "range52": "1,059",
-   "pe": "31.7",
+   "mcap": "7,837",
+   "price": "737",
+   "range52": "1,058",
+   "pe": "31.6",
    "bookValue": "155",
    "yield": "0.81",
    "roce": "21.7",
@@ -27626,15 +27626,15 @@
     "public": "19.88%",
     "public_prev": "18.17%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "COALINDIA": {
-   "mcap": "2,41,155",
-   "price": "392",
+   "mcap": "2,43,150",
+   "price": "395",
    "range52": "491",
-   "pe": "12.8",
+   "pe": "12.9",
    "bookValue": "33.5",
-   "yield": "6.76",
+   "yield": "6.71",
    "roce": "85.6",
    "roe": "84.5",
    "faceValue": "10.0",
@@ -27851,13 +27851,13 @@
     "public": "5.73%",
     "public_prev": "5.62%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "COCHINSHIP": {
-   "mcap": "29,712",
-   "price": "1,130",
+   "mcap": "29,772",
+   "price": "1,132",
    "range52": "1,844",
-   "pe": "50.3",
+   "pe": "50.4",
    "bookValue": "224",
    "yield": "0.80",
    "roce": "14.5",
@@ -28074,10 +28074,10 @@
     "public": "22.34%",
     "public_prev": "22.95%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "COFORGE": {
-   "mcap": "86,963",
+   "mcap": "86,913",
    "price": "1,962",
    "range52": "2,022",
    "pe": "70.2",
@@ -28299,13 +28299,13 @@
     "public": "31.47%",
     "public_prev": "13.16%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "COHANCE": {
-   "mcap": "18,261",
-   "price": "476",
-   "range52": "845",
-   "pe": "95.5",
+   "mcap": "18,562",
+   "price": "485",
+   "range52": "799",
+   "pe": "97.1",
    "bookValue": "117",
    "yield": "0.00",
    "roce": "7.91",
@@ -28524,15 +28524,15 @@
     "public": "15.95%",
     "public_prev": "15.11%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "COLPAL": {
-   "mcap": "43,504",
-   "price": "1,602",
+   "mcap": "43,484",
+   "price": "1,599",
    "range52": "2,302",
-   "pe": "31.5",
+   "pe": "31.4",
    "bookValue": "59.5",
-   "yield": "3.00",
+   "yield": "3.01",
    "roce": "108",
    "roe": "82.7",
    "faceValue": "1.00",
@@ -28749,15 +28749,15 @@
     "public": "19.82%",
     "public_prev": "19.87%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CAMS": {
-   "mcap": "16,869",
-   "price": "677",
+   "mcap": "17,012",
+   "price": "685",
    "range52": "845",
-   "pe": "37.2",
+   "pe": "37.5",
    "bookValue": "48.7",
-   "yield": "1.85",
+   "yield": "1.84",
    "roce": "48.3",
    "roe": "37.0",
    "faceValue": "2.00",
@@ -28974,21 +28974,21 @@
     "public": "32.64%",
     "public_prev": "33.50%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CONCORDBIO": {
-   "mcap": "13,241",
-   "price": "1,268",
+   "mcap": "13,171",
+   "price": "1,259",
    "range52": "1,615",
-   "pe": "44.6",
+   "pe": "44.3",
    "bookValue": "199",
-   "yield": "0.60",
+   "yield": "0.30",
    "roce": "17.4",
    "roe": "12.6",
    "faceValue": "1.00",
    "salesGrowth": "14%",
    "profitGrowth": "11%",
-   "priceCagr": "2%",
+   "priceCagr": "3%",
    "roeCalc": "18%",
    "quarters": {
     "periods": [
@@ -29197,13 +29197,13 @@
     "public": "37.68%",
     "public_prev": "38.90%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CONCOR": {
-   "mcap": "32,226",
-   "price": "418",
+   "mcap": "31,794",
+   "price": "417",
    "range52": "558",
-   "pe": "26.0",
+   "pe": "25.6",
    "bookValue": "169",
    "yield": "2.06",
    "roce": "12.6",
@@ -29422,15 +29422,15 @@
     "public": "7.12%",
     "public_prev": "7.10%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "COROMANDEL": {
-   "mcap": "50,272",
-   "price": "1,704",
+   "mcap": "50,536",
+   "price": "1,713",
    "range52": "2,499",
-   "pe": "25.8",
+   "pe": "25.9",
    "bookValue": "423",
-   "yield": "0.65",
+   "yield": "0.64",
    "roce": "24.6",
    "roe": "17.3",
    "faceValue": "1.00",
@@ -29645,13 +29645,13 @@
     "public": "11.69%",
     "public_prev": "12.24%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CRAFTSMAN": {
-   "mcap": "28,829",
-   "price": "11,014",
+   "mcap": "27,945",
+   "price": "10,685",
    "range52": "11,999",
-   "pe": "85.8",
+   "pe": "83.2",
    "bookValue": "1,970",
    "yield": "0.10",
    "roce": "10.3",
@@ -29868,13 +29868,13 @@
     "public": "7.49%",
     "public_prev": "7.82%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CREDITACC": {
-   "mcap": "16,408",
-   "price": "1,022",
+   "mcap": "16,688",
+   "price": "1,039",
    "range52": "1,634",
-   "pe": "10.3",
+   "pe": "10.5",
    "bookValue": "556",
    "yield": "0.00",
    "roce": "9.98",
@@ -30043,15 +30043,15 @@
     "public": "7.68%",
     "public_prev": "8.23%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CROMPTON": {
-   "mcap": "13,119",
-   "price": "204",
+   "mcap": "13,059",
+   "price": "203",
    "range52": "311",
-   "pe": "27.4",
+   "pe": "27.3",
    "bookValue": "50.3",
-   "yield": "1.47",
+   "yield": "1.49",
    "roce": "19.0",
    "roe": "10.3",
    "faceValue": "2.00",
@@ -30268,15 +30268,15 @@
     "public": "14.98%",
     "public_prev": "13.37%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CUMMINSIND": {
-   "mcap": "1,28,249",
-   "price": "4,620",
+   "mcap": "1,26,001",
+   "price": "4,546",
    "range52": "6,143",
-   "pe": "54.5",
+   "pe": "53.5",
    "bookValue": "285",
-   "yield": "1.43",
+   "yield": "1.47",
    "roce": "41.6",
    "roe": "31.8",
    "faceValue": "2.00",
@@ -30493,15 +30493,15 @@
     "public": "8.70%",
     "public_prev": "8.68%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "CYIENT": {
-   "mcap": "12,859",
-   "price": "1,157",
+   "mcap": "12,991",
+   "price": "1,169",
    "range52": "1,277",
-   "pe": "31.0",
+   "pe": "31.4",
    "bookValue": "284",
-   "yield": "1.38",
+   "yield": "1.37",
    "roce": "16.6",
    "roe": "7.96",
    "faceValue": "5.00",
@@ -30718,15 +30718,15 @@
     "public": "21.08%",
     "public_prev": "19.84%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "DCMSHRIRAM": {
-   "mcap": "14,225",
-   "price": "912",
-   "range52": "1,409",
+   "mcap": "14,294",
+   "price": "917",
+   "range52": "1,356",
    "pe": "10.6",
    "bookValue": "545",
-   "yield": "1.23",
+   "yield": "1.21",
    "roce": "11.2",
    "roe": "11.3",
    "faceValue": "2.00",
@@ -30943,13 +30943,13 @@
     "public": "20.51%",
     "public_prev": "20.23%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "DLF": {
-   "mcap": "1,65,176",
+   "mcap": "1,64,782",
    "price": "666",
-   "range52": "786",
-   "pe": "46.2",
+   "range52": "785",
+   "pe": "46.0",
    "bookValue": "123",
    "yield": "1.20",
    "roce": "13.7",
@@ -31168,13 +31168,13 @@
     "public": "5.41%",
     "public_prev": "5.43%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "DOMS": {
-   "mcap": "11,289",
-   "price": "1,858",
+   "mcap": "11,102",
+   "price": "1,829",
    "range52": "2,755",
-   "pe": "54.6",
+   "pe": "53.6",
    "bookValue": "193",
    "yield": "0.20",
    "roce": "25.2",
@@ -31391,15 +31391,15 @@
     "public": "2.99%",
     "public_prev": "2.86%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "DABUR": {
-   "mcap": "63,472",
-   "price": "360",
+   "mcap": "64,013",
+   "price": "361",
    "range52": "534",
-   "pe": "41.0",
+   "pe": "41.4",
    "bookValue": "42.4",
-   "yield": "2.29",
+   "yield": "2.28",
    "roce": "24.9",
    "roe": "20.0",
    "faceValue": "1.00",
@@ -31616,15 +31616,15 @@
     "public": "5.78%",
     "public_prev": "5.20%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "DALBHARAT": {
-   "mcap": "27,678",
-   "price": "1,474",
+   "mcap": "26,634",
+   "price": "1,420",
    "range52": "2,260",
-   "pe": "207",
+   "pe": "199",
    "bookValue": "420",
-   "yield": "0.61",
+   "yield": "0.63",
    "roce": "2.07",
    "roe": "1.75",
    "faceValue": "2.00",
@@ -31841,13 +31841,13 @@
     "public": "17.70%",
     "public_prev": "16.61%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "DATAPATTNS": {
-   "mcap": "22,325",
-   "price": "3,985",
+   "mcap": "22,226",
+   "price": "3,970",
    "range52": "5,000",
-   "pe": "82.6",
+   "pe": "82.2",
    "bookValue": "310",
    "yield": "0.25",
    "roce": "21.9",
@@ -31855,7 +31855,7 @@
    "faceValue": "2.00",
    "salesGrowth": "36%",
    "profitGrowth": "77%",
-   "priceCagr": "27%",
+   "priceCagr": "28%",
    "roeCalc": "15%",
    "quarters": {
     "periods": [
@@ -32064,15 +32064,15 @@
     "public": "33.25%",
     "public_prev": "33.43%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "DEEPAKFERT": {
-   "mcap": "14,668",
-   "price": "1,162",
+   "mcap": "14,551",
+   "price": "1,153",
    "range52": "1,681",
-   "pe": "58.5",
+   "pe": "58.0",
    "bookValue": "290",
-   "yield": "0.86",
+   "yield": "0.88",
    "roce": "8.17",
    "roe": "7.19",
    "faceValue": "10.0",
@@ -32287,15 +32287,15 @@
     "public": "29.75%",
     "public_prev": "30.83%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "DEEPAKNTR": {
-   "mcap": "20,279",
-   "price": "1,488",
+   "mcap": "20,280",
+   "price": "1,487",
    "range52": "1,898",
    "pe": "87.9",
    "bookValue": "236",
-   "yield": "0.50",
+   "yield": "0.51",
    "roce": "7.36",
    "roe": "6.14",
    "faceValue": "2.00",
@@ -32512,13 +32512,13 @@
     "public": "21.71%",
     "public_prev": "21.01%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "DELHIVERY": {
-   "mcap": "28,860",
-   "price": "385",
+   "mcap": "28,984",
+   "price": "387",
    "range52": "524",
-   "pe": "90.5",
+   "pe": "90.9",
    "bookValue": "134",
    "yield": "0.00",
    "roce": "2.51",
@@ -32735,10 +32735,10 @@
     "public": "14.51%",
     "public_prev": "15.51%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "DEVYANI": {
-   "mcap": "14,980",
+   "mcap": "14,882",
    "price": "121",
    "range52": "169",
    "bookValue": "12.2",
@@ -32957,11 +32957,11 @@
     "public": "11.64%",
     "public_prev": "13.17%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "DIVISLAB": {
-   "mcap": "2,54,484",
-   "price": "9,558",
+   "mcap": "2,54,691",
+   "price": "9,594",
    "range52": "10,000",
    "pe": "85.0",
    "bookValue": "629",
@@ -33182,13 +33182,13 @@
     "public": "8.58%",
     "public_prev": "8.61%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "DIXON": {
-   "mcap": "69,691",
-   "price": "11,400",
+   "mcap": "70,585",
+   "price": "11,539",
    "range52": "15,775",
-   "pe": "56.1",
+   "pe": "56.8",
    "bookValue": "533",
    "yield": "0.09",
    "roce": "8.46",
@@ -33405,13 +33405,13 @@
     "public": "23.83%",
     "public_prev": "24.87%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "LALPATHLAB": {
-   "mcap": "32,257",
-   "price": "1,922",
+   "mcap": "31,977",
+   "price": "1,905",
    "range52": "2,039",
-   "pe": "57.0",
+   "pe": "56.5",
    "bookValue": "148",
    "yield": "0.73",
    "roce": "28.5",
@@ -33630,13 +33630,13 @@
     "public": "6.35%",
     "public_prev": "7.88%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "DRREDDY": {
-   "mcap": "1,11,890",
-   "price": "1,335",
+   "mcap": "1,12,331",
+   "price": "1,346",
    "range52": "1,415",
-   "pe": "115",
+   "pe": "116",
    "bookValue": "383",
    "yield": "0.60",
    "roce": "12.1",
@@ -33853,11 +33853,11 @@
     "public": "20.99%",
     "public_prev": "21.27%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "EIDPARRY": {
-   "mcap": "11,048",
-   "price": "621",
+   "mcap": "11,066",
+   "price": "622",
    "range52": "1,100",
    "bookValue": "105",
    "yield": "0.00",
@@ -34075,13 +34075,13 @@
     "public": "28.55%",
     "public_prev": "29.59%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "EIHOTEL": {
-   "mcap": "18,270",
-   "price": "292",
+   "mcap": "18,157",
+   "price": "290",
    "range52": "405",
-   "pe": "28.4",
+   "pe": "28.2",
    "bookValue": "75.0",
    "yield": "0.51",
    "roce": "20.2",
@@ -34300,13 +34300,13 @@
     "public": "46.97%",
     "public_prev": "46.65%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "EICHERMOT": {
-   "mcap": "2,00,821",
-   "price": "7,300",
+   "mcap": "1,99,315",
+   "price": "7,260",
    "range52": "8,233",
-   "pe": "38.0",
+   "pe": "37.7",
    "bookValue": "795",
    "yield": "1.12",
    "roce": "32.9",
@@ -34525,11 +34525,11 @@
     "public": "9.36%",
     "public_prev": "9.35%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ELECON": {
-   "mcap": "9,648",
-   "price": "429",
+   "mcap": "9,647",
+   "price": "430",
    "range52": "579",
    "pe": "33.0",
    "bookValue": "98.8",
@@ -34750,13 +34750,13 @@
     "public": "26.69%",
     "public_prev": "27.89%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ELGIEQUIP": {
-   "mcap": "16,294",
-   "price": "514",
+   "mcap": "16,094",
+   "price": "508",
    "range52": "653",
-   "pe": "44.8",
+   "pe": "44.2",
    "bookValue": "62.7",
    "yield": "0.53",
    "roce": "25.1",
@@ -34973,15 +34973,15 @@
     "public": "36.65%",
     "public_prev": "37.00%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "EMAMILTD": {
-   "mcap": "16,189",
-   "price": "373",
-   "range52": "553",
-   "pe": "18.6",
+   "mcap": "16,142",
+   "price": "370",
+   "range52": "551",
+   "pe": "18.5",
    "bookValue": "72.3",
-   "yield": "2.68",
+   "yield": "2.70",
    "roce": "28.4",
    "roe": "26.6",
    "faceValue": "1.00",
@@ -35198,11 +35198,11 @@
     "public": "12.57%",
     "public_prev": "9.67%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "EMCURE": {
-   "mcap": "35,573",
-   "price": "1,875",
+   "mcap": "35,595",
+   "price": "1,876",
    "range52": "2,101",
    "pe": "43.0",
    "bookValue": "196",
@@ -35212,7 +35212,7 @@
    "faceValue": "10.0",
    "salesGrowth": "11%",
    "profitGrowth": "12%",
-   "priceCagr": "41%",
+   "priceCagr": "40%",
    "roeCalc": "16%",
    "quarters": {
     "periods": [
@@ -35421,13 +35421,13 @@
     "public": "8.75%",
     "public_prev": "12.69%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "EMMVEE": {
-   "mcap": "16,865",
-   "price": "244",
+   "mcap": "16,782",
+   "price": "242",
    "range52": "372",
-   "pe": "193",
+   "pe": "192",
    "bookValue": "38.3",
    "yield": "0.41",
    "roce": "12.7",
@@ -35645,13 +35645,13 @@
     "public": "7.98%",
     "public_prev": "5.24%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ENDURANCE": {
-   "mcap": "32,330",
-   "price": "2,299",
+   "mcap": "32,127",
+   "price": "2,284",
    "range52": "3,075",
-   "pe": "41.6",
+   "pe": "41.3",
    "bookValue": "351",
    "yield": "0.50",
    "roce": "21.1",
@@ -35868,15 +35868,15 @@
     "public": "2.46%",
     "public_prev": "2.07%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ENGINERSIN": {
-   "mcap": "14,396",
-   "price": "256",
+   "mcap": "14,793",
+   "price": "263",
    "range52": "321",
-   "pe": "21.3",
+   "pe": "21.8",
    "bookValue": "54.1",
-   "yield": "1.95",
+   "yield": "1.92",
    "roce": "29.1",
    "roe": "22.1",
    "faceValue": "5.00",
@@ -36093,15 +36093,15 @@
     "public": "23.94%",
     "public_prev": "26.79%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ERIS": {
-   "mcap": "16,320",
-   "price": "1,175",
+   "mcap": "16,275",
+   "price": "1,173",
    "range52": "1,740",
-   "pe": "75.6",
+   "pe": "75.4",
    "bookValue": "237",
-   "yield": "0.61",
+   "yield": "0.62",
    "roce": "11.0",
    "roe": "8.88",
    "faceValue": "1.00",
@@ -36316,15 +36316,15 @@
     "public": "19.32%",
     "public_prev": "19.33%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ESCORTS": {
-   "mcap": "30,219",
-   "price": "2,706",
+   "mcap": "29,616",
+   "price": "2,647",
    "range52": "3,999",
-   "pe": "21.0",
+   "pe": "20.6",
    "bookValue": "1,108",
-   "yield": "1.22",
+   "yield": "1.24",
    "roce": "14.1",
    "roe": "19.5",
    "faceValue": "10.0",
@@ -36539,11 +36539,11 @@
     "public": "13.25%",
     "public_prev": "12.93%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "ETERNAL": {
-   "mcap": "3,15,077",
-   "price": "326",
+   "mcap": "3,15,373",
+   "price": "327",
    "range52": "345",
    "pe": "122",
    "bookValue": "39.8",
@@ -36762,15 +36762,15 @@
     "public": "26.26%",
     "public_prev": "26.68%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "EXIDEIND": {
-   "mcap": "30,037",
-   "price": "354",
+   "mcap": "29,631",
+   "price": "349",
    "range52": "496",
-   "pe": "24.9",
+   "pe": "24.6",
    "bookValue": "173",
-   "yield": "0.57",
+   "yield": "0.58",
    "roce": "10.1",
    "roe": "7.49",
    "faceValue": "1.00",
@@ -36987,15 +36987,15 @@
     "public": "23.22%",
     "public_prev": "24.59%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "NFL": {
-   "mcap": "2,903",
-   "price": "59.2",
-   "range52": "96.1",
-   "pe": "10.6",
+   "mcap": "2,917",
+   "price": "59.5",
+   "range52": "96.0",
+   "pe": "10.7",
    "bookValue": "58.0",
-   "yield": "1.76",
+   "yield": "1.74",
    "roce": "8.33",
    "roe": "5.91",
    "faceValue": "10.0",
@@ -37210,13 +37210,13 @@
     "public": "19.96%",
     "public_prev": "19.05%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "NYKAA": {
-   "mcap": "98,231",
-   "price": "342",
+   "mcap": "99,118",
+   "price": "346",
    "range52": "351",
-   "pe": "1,141",
+   "pe": "1,151",
    "bookValue": "6.30",
    "yield": "0.00",
    "roce": "6.78",
@@ -37433,7 +37433,7 @@
     "public": "9.92%",
     "public_prev": "10.15%"
    },
-   "fetched": "2026-10-28"
+   "fetched": "2026-10-29"
   },
   "SBIN": {
    "name": "State Bank of India",
