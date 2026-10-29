@@ -1,136 +1,136 @@
 {
- "generated": "2026-10-29T07:35:09.255465Z",
+ "generated": "2026-10-29T09:18:53.020567Z",
  "timeframe": "15m",
  "label": "15-minute",
  "scanned": 520,
  "failed": 5,
  "alerts": [
   {
-   "tk": "IOC",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 128.97",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": true
-  },
-  {
-   "tk": "PIRAMALFIN",
+   "tk": "BDL",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 1840.00",
+   "note": "closed above the range high of 1007.30",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": true
   },
   {
-   "tk": "SHRIRAMFIN",
+   "tk": "COCHINSHIP",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 834.60",
+   "note": "closed above the range high of 1147.00",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": true
   },
   {
-   "tk": "KOTAKBANK",
-   "pattern": "Double top",
-   "side": "bearish",
-   "confidence": "possible",
-   "note": "two highs near 455.45 with a dip between",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": true
-  },
-  {
-   "tk": "NEULANDLAB",
-   "pattern": "Double bottom",
+   "tk": "NTPCGREEN",
+   "pattern": "Breakout above range",
    "side": "bullish",
-   "confidence": "possible",
-   "note": "two lows near 19365.00 with a bounce between",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": true
-  },
-  {
-   "tk": "PWL",
-   "pattern": "Double top",
-   "side": "bearish",
-   "confidence": "possible",
-   "note": "two highs near 132.54 with a dip between",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": true
-  },
-  {
-   "tk": "SBFC",
-   "pattern": "Double bottom",
-   "side": "bullish",
-   "confidence": "possible",
-   "note": "two lows near 86.39 with a bounce between",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": true
-  },
-  {
-   "tk": "SPLPETRO",
-   "pattern": "Double bottom",
-   "side": "bullish",
-   "confidence": "possible",
-   "note": "two lows near 708.00 with a bounce between",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": true
-  },
-  {
-   "tk": "TATACAP",
-   "pattern": "Double top",
-   "side": "bearish",
-   "confidence": "possible",
-   "note": "two highs near 321.55 with a dip between",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": true
-  },
-  {
-   "tk": "ARVIND",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 491.40",
+   "note": "closed above the range high of 84.09",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": true
+  },
+  {
+   "tk": "SBICARD",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 540.10",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": true
+  },
+  {
+   "tk": "HOMEFIRST",
+   "pattern": "Double top",
+   "side": "bearish",
+   "confidence": "possible",
+   "note": "two highs near 1062.60 with a dip between",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": true
+  },
+  {
+   "tk": "JSWDULUX",
+   "pattern": "Double bottom",
+   "side": "bullish",
+   "confidence": "possible",
+   "note": "two lows near 273.90 with a bounce between",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": true
+  },
+  {
+   "tk": "NUVAMA",
+   "pattern": "Double top",
+   "side": "bearish",
+   "confidence": "possible",
+   "note": "two highs near 1787.50 with a dip between",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": true
+  },
+  {
+   "tk": "OFSS",
+   "pattern": "Double bottom",
+   "side": "bullish",
+   "confidence": "possible",
+   "note": "two lows near 9905.00 with a bounce between",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": true
+  },
+  {
+   "tk": "PINELABS",
+   "pattern": "Double bottom",
+   "side": "bullish",
+   "confidence": "possible",
+   "note": "two lows near 166.06 with a bounce between",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": true
+  },
+  {
+   "tk": "USHAMART",
+   "pattern": "Double top",
+   "side": "bearish",
+   "confidence": "possible",
+   "note": "two highs near 464.95 with a dip between",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": true
+  },
+  {
+   "tk": "360ONE",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 1026.00",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
   },
   {
-   "tk": "CPPLUS",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
+   "tk": "3MINDIA",
+   "pattern": "Breakout above range",
+   "side": "bullish",
    "confidence": "fresh",
-   "note": "closed below the range low of 3897.20",
+   "note": "closed above the range high of 28955.00",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
   },
   {
-   "tk": "ATUL",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
+   "tk": "BSE",
+   "pattern": "Breakout above range",
+   "side": "bullish",
    "confidence": "fresh",
-   "note": "closed below the range low of 5108.00",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": false
-  },
-  {
-   "tk": "BAJAJHLDNG",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 10179.00",
+   "note": "closed above the range high of 3534.70",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
@@ -140,47 +140,77 @@
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 160.55",
+   "note": "closed above the range high of 163.15",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
   },
   {
-   "tk": "ETERNAL",
+   "tk": "CRISIL",
+   "pattern": "Breakdown below range",
+   "side": "bearish",
+   "confidence": "fresh",
+   "note": "closed below the range low of 4607.10",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": false
+  },
+  {
+   "tk": "CENTRALBK",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 336.60",
+   "note": "closed above the range high of 29.19",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
   },
   {
-   "tk": "FORCEMOT",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
+   "tk": "CDSL",
+   "pattern": "Breakout above range",
+   "side": "bullish",
    "confidence": "fresh",
-   "note": "closed below the range low of 16894.00",
+   "note": "closed above the range high of 1281.90",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
   },
   {
-   "tk": "HEXT",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
+   "tk": "CAMS",
+   "pattern": "Breakout above range",
+   "side": "bullish",
    "confidence": "fresh",
-   "note": "closed below the range low of 542.65",
+   "note": "closed above the range high of 693.45",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
   },
   {
-   "tk": "HINDALCO",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
+   "tk": "EIHOTEL",
+   "pattern": "Breakout above range",
+   "side": "bullish",
    "confidence": "fresh",
-   "note": "closed below the range low of 882.20",
+   "note": "closed above the range high of 294.00",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": false
+  },
+  {
+   "tk": "NFL",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 60.10",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": false
+  },
+  {
+   "tk": "FACT",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 688.20",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
@@ -190,117 +220,137 @@
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 1044.80",
+   "note": "closed above the range high of 1062.60",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
   },
   {
-   "tk": "IEX",
+   "tk": "IIFL",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 103.91",
+   "note": "closed above the range high of 562.75",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
   },
   {
-   "tk": "IGIL",
+   "tk": "ITC",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 407.85",
+   "note": "closed above the range high of 266.55",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
   },
   {
-   "tk": "KIRLOSENG",
+   "tk": "INDIAMART",
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 1894.90",
+   "note": "closed below the range low of 1549.70",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
   },
   {
-   "tk": "MUTHOOTFIN",
+   "tk": "JUBLINGREA",
+   "pattern": "Breakdown below range",
+   "side": "bearish",
+   "confidence": "fresh",
+   "note": "closed below the range low of 569.20",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": false
+  },
+  {
+   "tk": "KFINTECH",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 2478.90",
+   "note": "closed above the range high of 873.10",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
   },
   {
-   "tk": "NEULANDLAB",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 19240.00",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": false
-  },
-  {
-   "tk": "PFOCUS",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 292.05",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": false
-  },
-  {
-   "tk": "SCHAEFFLER",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 3507.00",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": false
-  },
-  {
-   "tk": "SAIL",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 160.42",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": false
-  },
-  {
-   "tk": "TITAN",
+   "tk": "LODHA",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 4436.00",
+   "note": "closed above the range high of 1023.30",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
   },
   {
-   "tk": "UNOMINDA",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 1086.90",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": false
-  },
-  {
-   "tk": "WIPRO",
+   "tk": "M&M",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 189.69",
+   "note": "closed above the range high of 2908.40",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": false
+  },
+  {
+   "tk": "OBEROIRLTY",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 1639.40",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": false
+  },
+  {
+   "tk": "ONGC",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 225.82",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": false
+  },
+  {
+   "tk": "PRESTIGE",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 1424.20",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": false
+  },
+  {
+   "tk": "SCI",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 254.85",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": false
+  },
+  {
+   "tk": "TVSMOTOR",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 4288.90",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": false
+  },
+  {
+   "tk": "VBL",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 415.45",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
@@ -406,16 +456,6 @@
    "new": false
   },
   {
-   "tk": "BANDHANBNK",
-   "pattern": "Double bottom",
-   "side": "bullish",
-   "confidence": "possible",
-   "note": "two lows near 151.77 with a bounce between",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": false
-  },
-  {
    "tk": "LLOYDSENGG",
    "pattern": "Double top",
    "side": "bearish",
@@ -466,16 +506,6 @@
    "new": false
   },
   {
-   "tk": "BOSCHLTD",
-   "pattern": "Double top",
-   "side": "bearish",
-   "confidence": "possible",
-   "note": "two highs near 46380.00 with a dip between",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": false
-  },
-  {
    "tk": "CESC",
    "pattern": "Double top",
    "side": "bearish",
@@ -501,26 +531,6 @@
    "side": "bullish",
    "confidence": "possible",
    "note": "two lows near 785.15 with a bounce between",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": false
-  },
-  {
-   "tk": "CHOICEIN",
-   "pattern": "Double top",
-   "side": "bearish",
-   "confidence": "possible",
-   "note": "two highs near 730.75 with a dip between",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": false
-  },
-  {
-   "tk": "CIPLA",
-   "pattern": "Double bottom",
-   "side": "bullish",
-   "confidence": "possible",
-   "note": "two lows near 1324.30 with a bounce between",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
@@ -717,16 +727,6 @@
   },
   {
    "tk": "HINDPETRO",
-   "pattern": "Double top",
-   "side": "bearish",
-   "confidence": "possible",
-   "note": "two highs near 354.00 with a dip between",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": false
-  },
-  {
-   "tk": "HINDPETRO",
    "pattern": "Double bottom",
    "side": "bullish",
    "confidence": "possible",
@@ -906,6 +906,16 @@
    "new": false
   },
   {
+   "tk": "KOTAKBANK",
+   "pattern": "Double top",
+   "side": "bearish",
+   "confidence": "possible",
+   "note": "two highs near 455.45 with a dip between",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": false
+  },
+  {
    "tk": "RTNINDIA",
    "pattern": "Double top",
    "side": "bearish",
@@ -946,16 +956,6 @@
    "new": false
   },
   {
-   "tk": "MPHASIS",
-   "pattern": "Double bottom",
-   "side": "bullish",
-   "confidence": "possible",
-   "note": "two lows near 2486.80 with a bounce between",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": false
-  },
-  {
    "tk": "NAVINFLUOR",
    "pattern": "Double bottom",
    "side": "bullish",
@@ -966,21 +966,21 @@
    "new": false
   },
   {
-   "tk": "NEWGEN",
+   "tk": "NEULANDLAB",
    "pattern": "Double bottom",
    "side": "bullish",
    "confidence": "possible",
-   "note": "two lows near 453.80 with a bounce between",
+   "note": "two lows near 19365.00 with a bounce between",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
   },
   {
-   "tk": "NAM-INDIA",
+   "tk": "NEWGEN",
    "pattern": "Double bottom",
    "side": "bullish",
    "confidence": "possible",
-   "note": "two lows near 923.50 with a bounce between",
+   "note": "two lows near 453.80 with a bounce between",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
@@ -1026,21 +1026,21 @@
    "new": false
   },
   {
-   "tk": "PAGEIND",
-   "pattern": "Double top",
-   "side": "bearish",
-   "confidence": "possible",
-   "note": "two highs near 34610.00 with a dip between",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": false
-  },
-  {
    "tk": "PETRONET",
    "pattern": "Double bottom",
    "side": "bullish",
    "confidence": "possible",
    "note": "two lows near 286.15 with a bounce between",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": false
+  },
+  {
+   "tk": "PWL",
+   "pattern": "Double top",
+   "side": "bearish",
+   "confidence": "possible",
+   "note": "two highs near 132.54 with a dip between",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
@@ -1090,7 +1090,7 @@
    "pattern": "Double top",
    "side": "bearish",
    "confidence": "possible",
-   "note": "two highs near 862.00 with a dip between",
+   "note": "two highs near 854.10 with a dip between",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
@@ -1101,26 +1101,6 @@
    "side": "bullish",
    "confidence": "possible",
    "note": "two lows near 829.70 with a bounce between",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": false
-  },
-  {
-   "tk": "PFOCUS",
-   "pattern": "Double top",
-   "side": "bearish",
-   "confidence": "possible",
-   "note": "two highs near 299.55 with a dip between",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": false
-  },
-  {
-   "tk": "RHIM",
-   "pattern": "Double top",
-   "side": "bearish",
-   "confidence": "possible",
-   "note": "two highs near 364.35 with a dip between",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
@@ -1167,10 +1147,10 @@
   },
   {
    "tk": "SBFC",
-   "pattern": "Double top",
-   "side": "bearish",
+   "pattern": "Double bottom",
+   "side": "bullish",
    "confidence": "possible",
-   "note": "two highs near 82.84 with a dip between",
+   "note": "two lows near 86.39 with a bounce between",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
@@ -1196,6 +1176,16 @@
    "new": false
   },
   {
+   "tk": "SPLPETRO",
+   "pattern": "Double bottom",
+   "side": "bullish",
+   "confidence": "possible",
+   "note": "two lows near 708.00 with a bounce between",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": false
+  },
+  {
    "tk": "SYNGENE",
    "pattern": "Double top",
    "side": "bearish",
@@ -1216,6 +1206,16 @@
    "new": false
   },
   {
+   "tk": "TATACAP",
+   "pattern": "Double top",
+   "side": "bearish",
+   "confidence": "possible",
+   "note": "two highs near 322.30 with a dip between",
+   "timeframe": "15m",
+   "date": "2026-10-29",
+   "new": false
+  },
+  {
    "tk": "TECHM",
    "pattern": "Double bottom",
    "side": "bullish",
@@ -1230,7 +1230,7 @@
    "pattern": "Double top",
    "side": "bearish",
    "confidence": "possible",
-   "note": "two highs near 670.95 with a dip between",
+   "note": "two highs near 692.50 with a dip between",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
@@ -1286,16 +1286,6 @@
    "new": false
   },
   {
-   "tk": "VOLTAS",
-   "pattern": "Double top",
-   "side": "bearish",
-   "confidence": "possible",
-   "note": "two highs near 977.00 with a dip between",
-   "timeframe": "15m",
-   "date": "2026-10-29",
-   "new": false
-  },
-  {
    "tk": "WAAREEENER",
    "pattern": "Double top",
    "side": "bearish",
@@ -1340,7 +1330,7 @@
    "pattern": "Double top",
    "side": "bearish",
    "confidence": "possible",
-   "note": "two highs near 890.20 with a dip between",
+   "note": "two highs near 956.35 with a dip between",
    "timeframe": "15m",
    "date": "2026-10-29",
    "new": false
