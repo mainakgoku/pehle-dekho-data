@@ -1,106 +1,186 @@
 {
- "generated": "2026-11-02T04:31:18.668199Z",
+ "generated": "2026-11-02T05:32:47.208597Z",
  "timeframe": "4h",
  "label": "4-hour",
  "scanned": 520,
  "failed": 5,
  "alerts": [
   {
-   "tk": "DELHIVERY",
+   "tk": "AFFLE",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 415.00",
+   "note": "closed above the range high of 1453.60",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": true
   },
   {
-   "tk": "AADHARHFC",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
+   "tk": "BEML",
+   "pattern": "Breakout above range",
+   "side": "bullish",
    "confidence": "fresh",
-   "note": "closed below the range low of 430.00",
+   "note": "closed above the range high of 2034.60",
    "timeframe": "4h",
    "date": "2026-11-02",
-   "new": false
+   "new": true
   },
   {
-   "tk": "AAVAS",
+   "tk": "CHOICEIN",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 742.50",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": true
+  },
+  {
+   "tk": "FORCEMOT",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 17843.00",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": true
+  },
+  {
+   "tk": "GAIL",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 170.77",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": true
+  },
+  {
+   "tk": "GRASIM",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 2975.00",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": true
+  },
+  {
+   "tk": "HFCL",
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 1091.30",
+   "note": "closed below the range low of 231.29",
    "timeframe": "4h",
    "date": "2026-11-02",
-   "new": false
+   "new": true
+  },
+  {
+   "tk": "ITI",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 247.04",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": true
+  },
+  {
+   "tk": "INDGN",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 607.05",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": true
+  },
+  {
+   "tk": "IOC",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 131.75",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": true
+  },
+  {
+   "tk": "JSWSTEEL",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 1260.50",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": true
+  },
+  {
+   "tk": "KIMS",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 711.85",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": true
+  },
+  {
+   "tk": "NH",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 1738.10",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": true
+  },
+  {
+   "tk": "POLICYBZR",
+   "pattern": "Breakdown below range",
+   "side": "bearish",
+   "confidence": "fresh",
+   "note": "closed below the range low of 979.30",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": true
+  },
+  {
+   "tk": "RELIANCE",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 1223.60",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": true
+  },
+  {
+   "tk": "SJVN",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 57.19",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": true
+  },
+  {
+   "tk": "ZENTEC",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 1672.90",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": true
   },
   {
    "tk": "ACUTAAS",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 3985.00",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "ABREL",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 1013.70",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "ABSLAMC",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 819.60",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "CPPLUS",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 3827.70",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "AEGISLOG",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 1138.90",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "AEGISVOPAK",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 229.15",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "AMBER",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 5914.50",
+   "note": "closed above the range high of 4001.00",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -110,7 +190,7 @@
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 452.15",
+   "note": "closed below the range low of 449.00",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -126,36 +206,6 @@
    "new": false
   },
   {
-   "tk": "APOLLOTYRE",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 382.65",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "APTUS",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 195.50",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "ASTRAL",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 1350.10",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
    "tk": "ATHERENERG",
    "pattern": "Breakout above range",
    "side": "bullish",
@@ -166,31 +216,11 @@
    "new": false
   },
   {
-   "tk": "BLS",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
+   "tk": "BANKBARODA",
+   "pattern": "Breakout above range",
+   "side": "bullish",
    "confidence": "fresh",
-   "note": "closed below the range low of 209.30",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "BAJAJHFL",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 77.57",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "BALRAMCHIN",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 616.60",
+   "note": "closed above the range high of 240.85",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -206,21 +236,11 @@
    "new": false
   },
   {
-   "tk": "BIKAJI",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
+   "tk": "BHARTIHEXA",
+   "pattern": "Breakout above range",
+   "side": "bullish",
    "confidence": "fresh",
-   "note": "closed below the range low of 452.40",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "BLUEDART",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 4182.20",
+   "note": "closed above the range high of 1665.90",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -236,31 +256,11 @@
    "new": false
   },
   {
-   "tk": "FIRSTCRY",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 159.84",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "MAPMYINDIA",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 805.90",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
    "tk": "CANHLIFE",
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 121.64",
+   "note": "closed below the range low of 121.43",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -270,37 +270,17 @@
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 230.26",
+   "note": "closed below the range low of 230.09",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
   },
   {
-   "tk": "CARTRADE",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
+   "tk": "CEMPRO",
+   "pattern": "Breakout above range",
+   "side": "bullish",
    "confidence": "fresh",
-   "note": "closed below the range low of 2297.20",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "CENTRALBK",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 28.78",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "CHAMBLFERT",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 357.80",
+   "note": "closed above the range high of 1265.20",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -320,7 +300,7 @@
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 720.50",
+   "note": "closed below the range low of 715.40",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -330,7 +310,7 @@
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 2036.40",
+   "note": "closed above the range high of 2058.60",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -346,6 +326,16 @@
    "new": false
   },
   {
+   "tk": "CONCORDBIO",
+   "pattern": "Breakdown below range",
+   "side": "bearish",
+   "confidence": "fresh",
+   "note": "closed below the range low of 1222.10",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": false
+  },
+  {
    "tk": "CROMPTON",
    "pattern": "Breakdown below range",
    "side": "bearish",
@@ -356,61 +346,21 @@
    "new": false
   },
   {
-   "tk": "DALBHARAT",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
+   "tk": "DLF",
+   "pattern": "Breakout above range",
+   "side": "bullish",
    "confidence": "fresh",
-   "note": "closed below the range low of 1342.50",
+   "note": "closed above the range high of 690.65",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
   },
   {
-   "tk": "DEEPAKFERT",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
+   "tk": "DELHIVERY",
+   "pattern": "Breakout above range",
+   "side": "bullish",
    "confidence": "fresh",
-   "note": "closed below the range low of 1129.50",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "DIXON",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 11153.00",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "EIDPARRY",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 615.00",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "EMAMILTD",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 361.30",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "EMMVEE",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 231.30",
+   "note": "closed above the range high of 415.00",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -426,91 +376,11 @@
    "new": false
   },
   {
-   "tk": "FIVESTAR",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 403.55",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "GODREJIND",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 912.50",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "GMDCLTD",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 419.70",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "HONAUT",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 29930.00",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "HUDCO",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 143.30",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "IFCI",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 55.40",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "IRB",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 15.91",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "ITC",
+   "tk": "ITCHOTELS",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 266.20",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "ITI",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 216.46",
+   "note": "closed above the range high of 169.62",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -521,26 +391,6 @@
    "side": "bullish",
    "confidence": "fresh",
    "note": "closed above the range high of 823.95",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "IOB",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 28.74",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "IRCTC",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 438.90",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -566,6 +416,16 @@
    "new": false
   },
   {
+   "tk": "IGL",
+   "pattern": "Breakdown below range",
+   "side": "bearish",
+   "confidence": "fresh",
+   "note": "closed below the range low of 137.70",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": false
+  },
+  {
    "tk": "INFY",
    "pattern": "Breakout above range",
    "side": "bullish",
@@ -586,61 +446,11 @@
    "new": false
   },
   {
-   "tk": "INTELLECT",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
+   "tk": "JSWCEMENT",
+   "pattern": "Breakout above range",
+   "side": "bullish",
    "confidence": "fresh",
-   "note": "closed below the range low of 567.70",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "JBMA",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 475.75",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "JKTYRE",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 301.20",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "JSWDULUX",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 266.00",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "JAINREC",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 273.55",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "JINDALSAW",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 231.85",
+   "note": "closed above the range high of 117.49",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -660,7 +470,7 @@
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 4270.00",
+   "note": "closed above the range high of 4270.80",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -680,7 +490,7 @@
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 215.53",
+   "note": "closed below the range low of 211.66",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -690,77 +500,27 @@
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 2340.20",
+   "note": "closed above the range high of 2377.00",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
   },
   {
-   "tk": "RCF",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
+   "tk": "THELEELA",
+   "pattern": "Breakout above range",
+   "side": "bullish",
    "confidence": "fresh",
-   "note": "closed below the range low of 94.02",
+   "note": "closed above the range high of 640.40",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
   },
   {
-   "tk": "REFEX",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
+   "tk": "MSUMI",
+   "pattern": "Breakout above range",
+   "side": "bullish",
    "confidence": "fresh",
-   "note": "closed below the range low of 215.15",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "SENCO",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 298.20",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "SHAKTIPUMP",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 355.25",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "MRF",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 116805.00",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "MAZDOCK",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 1714.90",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "NCC",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 115.06",
+   "note": "closed above the range high of 35.51",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -770,17 +530,17 @@
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 77.44",
+   "note": "closed above the range high of 77.57",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
   },
   {
-   "tk": "NAVINFLUOR",
-   "pattern": "Breakout above range",
-   "side": "bullish",
+   "tk": "NETWEB",
+   "pattern": "Breakdown below range",
+   "side": "bearish",
    "confidence": "fresh",
-   "note": "closed above the range high of 8585.00",
+   "note": "closed below the range low of 4162.00",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -806,31 +566,31 @@
    "new": false
   },
   {
+   "tk": "PVRINOX",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 1497.20",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": false
+  },
+  {
    "tk": "PERSISTENT",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 5984.00",
+   "note": "closed above the range high of 6000.00",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
   },
   {
-   "tk": "POONAWALLA",
+   "tk": "PPLPHARMA",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 460.00",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "PFC",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 315.60",
+   "note": "closed above the range high of 238.98",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -840,7 +600,7 @@
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 2073.30",
+   "note": "closed below the range low of 2055.00",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -856,51 +616,11 @@
    "new": false
   },
   {
-   "tk": "RITES",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 188.77",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "RAILTEL",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 222.35",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "REDINGTON",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 339.25",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "SAGILITY",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 42.20",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
    "tk": "SARDAEN",
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 443.05",
+   "note": "closed below the range low of 440.10",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -910,27 +630,7 @@
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 542.60",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "SIGNATURE",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 702.30",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "SOBHA",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 1130.30",
+   "note": "closed above the range high of 545.70",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -940,17 +640,7 @@
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 880.90",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "SONATSOFTW",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 226.85",
+   "note": "closed above the range high of 891.40",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -966,21 +656,11 @@
    "new": false
   },
   {
-   "tk": "SUMICHEM",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
+   "tk": "SYNGENE",
+   "pattern": "Breakout above range",
+   "side": "bullish",
    "confidence": "fresh",
-   "note": "closed below the range low of 320.40",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "SWANCORP",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 232.20",
+   "note": "closed above the range high of 409.65",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -1006,61 +686,21 @@
    "new": false
   },
   {
-   "tk": "TATATECH",
+   "tk": "NIACL",
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 652.70",
+   "note": "closed below the range low of 156.80",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
   },
   {
-   "tk": "TEGA",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
+   "tk": "ULTRACEMCO",
+   "pattern": "Breakout above range",
+   "side": "bullish",
    "confidence": "fresh",
-   "note": "closed below the range low of 1692.60",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "UJJIVANSFB",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 54.29",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "USHAMART",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 448.05",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "UTKARSHBNK",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 11.53",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "VTL",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 485.30",
+   "note": "closed above the range high of 11208.00",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -1080,7 +720,7 @@
    "pattern": "Breakdown below range",
    "side": "bearish",
    "confidence": "fresh",
-   "note": "closed below the range low of 2350.60",
+   "note": "closed below the range low of 2347.60",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
@@ -1096,31 +736,21 @@
    "new": false
   },
   {
+   "tk": "ZENSARTECH",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 535.95",
+   "timeframe": "4h",
+   "date": "2026-11-02",
+   "new": false
+  },
+  {
    "tk": "ZYDUSLIFE",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
    "note": "closed above the range high of 1239.00",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "ZYDUSWELL",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 461.70",
-   "timeframe": "4h",
-   "date": "2026-11-02",
-   "new": false
-  },
-  {
-   "tk": "V2RETAIL",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 151.25",
    "timeframe": "4h",
    "date": "2026-11-02",
    "new": false
