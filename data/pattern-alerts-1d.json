@@ -1,16 +1,16 @@
 {
- "generated": "2026-11-04T05:31:25.631631Z",
+ "generated": "2026-11-04T06:30:42.415585Z",
  "timeframe": "1d",
  "label": "daily",
  "scanned": 520,
  "failed": 5,
  "alerts": [
   {
-   "tk": "WELCORP",
-   "pattern": "Double bottom",
-   "side": "bullish",
+   "tk": "NBCC",
+   "pattern": "Double top",
+   "side": "bearish",
    "confidence": "possible",
-   "note": "two lows near 2315.00 with a bounce between",
+   "note": "two highs near 76.13 with a dip between",
    "timeframe": "1d",
    "date": "2026-11-04",
    "new": true
@@ -21,6 +21,16 @@
    "side": "bearish",
    "confidence": "fresh",
    "note": "closed below the range low of 3389.70",
+   "timeframe": "1d",
+   "date": "2026-11-04",
+   "new": false
+  },
+  {
+   "tk": "AWL",
+   "pattern": "Breakdown below range",
+   "side": "bearish",
+   "confidence": "fresh",
+   "note": "closed below the range low of 163.94",
    "timeframe": "1d",
    "date": "2026-11-04",
    "new": false
@@ -41,6 +51,16 @@
    "side": "bullish",
    "confidence": "fresh",
    "note": "closed above the range high of 1872.00",
+   "timeframe": "1d",
+   "date": "2026-11-04",
+   "new": false
+  },
+  {
+   "tk": "AFFLE",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 1623.20",
    "timeframe": "1d",
    "date": "2026-11-04",
    "new": false
@@ -146,21 +166,31 @@
    "new": false
   },
   {
-   "tk": "FIVESTAR",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 396.85",
-   "timeframe": "1d",
-   "date": "2026-11-04",
-   "new": false
-  },
-  {
    "tk": "GAIL",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
    "note": "closed above the range high of 181.75",
+   "timeframe": "1d",
+   "date": "2026-11-04",
+   "new": false
+  },
+  {
+   "tk": "GLAND",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 3150.60",
+   "timeframe": "1d",
+   "date": "2026-11-04",
+   "new": false
+  },
+  {
+   "tk": "GRANULES",
+   "pattern": "Breakdown below range",
+   "side": "bearish",
+   "confidence": "fresh",
+   "note": "closed below the range low of 794.75",
    "timeframe": "1d",
    "date": "2026-11-04",
    "new": false
@@ -236,11 +266,11 @@
    "new": false
   },
   {
-   "tk": "JSWCEMENT",
+   "tk": "INDIGO",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
-   "note": "closed above the range high of 121.97",
+   "note": "closed above the range high of 5050.50",
    "timeframe": "1d",
    "date": "2026-11-04",
    "new": false
@@ -281,16 +311,6 @@
    "side": "bullish",
    "confidence": "fresh",
    "note": "closed above the range high of 114.26",
-   "timeframe": "1d",
-   "date": "2026-11-04",
-   "new": false
-  },
-  {
-   "tk": "LLOYDSME",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 1773.60",
    "timeframe": "1d",
    "date": "2026-11-04",
    "new": false
@@ -401,16 +421,6 @@
    "side": "bullish",
    "confidence": "fresh",
    "note": "closed above the range high of 253.09",
-   "timeframe": "1d",
-   "date": "2026-11-04",
-   "new": false
-  },
-  {
-   "tk": "ZEEL",
-   "pattern": "Breakdown below range",
-   "side": "bearish",
-   "confidence": "fresh",
-   "note": "closed below the range low of 61.58",
    "timeframe": "1d",
    "date": "2026-11-04",
    "new": false
@@ -2491,16 +2501,6 @@
    "side": "bearish",
    "confidence": "possible",
    "note": "two highs near 235.79 with a dip between",
-   "timeframe": "1d",
-   "date": "2026-11-04",
-   "new": false
-  },
-  {
-   "tk": "CUB",
-   "pattern": "Double bottom",
-   "side": "bullish",
-   "confidence": "possible",
-   "note": "two lows near 212.20 with a bounce between",
    "timeframe": "1d",
    "date": "2026-11-04",
    "new": false
