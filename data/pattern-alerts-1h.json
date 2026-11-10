@@ -1,70 +1,10 @@
 {
- "generated": "2026-11-10T04:23:22.870708Z",
+ "generated": "2026-11-10T05:24:51.428981Z",
  "timeframe": "1h",
  "label": "1-hour",
  "scanned": 520,
  "failed": 5,
  "alerts": [
-  {
-   "tk": "BANDHANBNK",
-   "pattern": "Breakout above range",
-   "side": "bullish",
-   "confidence": "fresh",
-   "note": "closed above the range high of 166.20",
-   "timeframe": "1h",
-   "date": "2026-11-10",
-   "new": true
-  },
-  {
-   "tk": "DEEPAKFERT",
-   "pattern": "Breakout above range",
-   "side": "bullish",
-   "confidence": "fresh",
-   "note": "closed above the range high of 1176.90",
-   "timeframe": "1h",
-   "date": "2026-11-10",
-   "new": true
-  },
-  {
-   "tk": "GRAPHITE",
-   "pattern": "Breakout above range",
-   "side": "bullish",
-   "confidence": "fresh",
-   "note": "closed above the range high of 761.65",
-   "timeframe": "1h",
-   "date": "2026-11-10",
-   "new": true
-  },
-  {
-   "tk": "SBICARD",
-   "pattern": "Breakout above range",
-   "side": "bullish",
-   "confidence": "fresh",
-   "note": "closed above the range high of 585.60",
-   "timeframe": "1h",
-   "date": "2026-11-10",
-   "new": true
-  },
-  {
-   "tk": "NHPC",
-   "pattern": "Double bottom",
-   "side": "bullish",
-   "confidence": "possible",
-   "note": "two lows near 79.44 with a bounce between",
-   "timeframe": "1h",
-   "date": "2026-11-10",
-   "new": true
-  },
-  {
-   "tk": "PAGEIND",
-   "pattern": "Double top",
-   "side": "bearish",
-   "confidence": "possible",
-   "note": "two highs near 36650.00 with a dip between",
-   "timeframe": "1h",
-   "date": "2026-11-10",
-   "new": true
-  },
   {
    "tk": "ADANIPORTS",
    "pattern": "Breakout above range",
@@ -151,6 +91,16 @@
    "side": "bullish",
    "confidence": "fresh",
    "note": "closed above the range high of 10937.00",
+   "timeframe": "1h",
+   "date": "2026-11-10",
+   "new": false
+  },
+  {
+   "tk": "BANDHANBNK",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 166.20",
    "timeframe": "1h",
    "date": "2026-11-10",
    "new": false
@@ -266,6 +216,16 @@
    "new": false
   },
   {
+   "tk": "DEEPAKFERT",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 1176.90",
+   "timeframe": "1h",
+   "date": "2026-11-10",
+   "new": false
+  },
+  {
    "tk": "DELHIVERY",
    "pattern": "Breakout above range",
    "side": "bullish",
@@ -331,6 +291,16 @@
    "side": "bullish",
    "confidence": "fresh",
    "note": "closed above the range high of 99.35",
+   "timeframe": "1h",
+   "date": "2026-11-10",
+   "new": false
+  },
+  {
+   "tk": "GRAPHITE",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 761.65",
    "timeframe": "1h",
    "date": "2026-11-10",
    "new": false
@@ -511,6 +481,16 @@
    "side": "bullish",
    "confidence": "fresh",
    "note": "closed above the range high of 4535.30",
+   "timeframe": "1h",
+   "date": "2026-11-10",
+   "new": false
+  },
+  {
+   "tk": "SBICARD",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 585.60",
    "timeframe": "1h",
    "date": "2026-11-10",
    "new": false
@@ -2501,6 +2481,26 @@
    "side": "bullish",
    "confidence": "possible",
    "note": "two lows near 768.70 with a bounce between",
+   "timeframe": "1h",
+   "date": "2026-11-10",
+   "new": false
+  },
+  {
+   "tk": "GRAPHITE",
+   "pattern": "Double top",
+   "side": "bearish",
+   "confidence": "possible",
+   "note": "two highs near 760.25 with a dip between",
+   "timeframe": "1h",
+   "date": "2026-11-10",
+   "new": false
+  },
+  {
+   "tk": "GRAPHITE",
+   "pattern": "Double bottom",
+   "side": "bullish",
+   "confidence": "possible",
+   "note": "two lows near 722.50 with a bounce between",
    "timeframe": "1h",
    "date": "2026-11-10",
    "new": false

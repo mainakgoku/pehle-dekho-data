@@ -1,50 +1,10 @@
 {
- "generated": "2026-11-10T04:21:42.698482Z",
+ "generated": "2026-11-10T05:23:13.772510Z",
  "timeframe": "15m",
  "label": "15-minute",
  "scanned": 520,
  "failed": 5,
  "alerts": [
-  {
-   "tk": "CIEINDIA",
-   "pattern": "Breakout above range",
-   "side": "bullish",
-   "confidence": "fresh",
-   "note": "closed above the range high of 360.00",
-   "timeframe": "15m",
-   "date": "2026-11-10",
-   "new": true
-  },
-  {
-   "tk": "CHAMBLFERT",
-   "pattern": "Breakout above range",
-   "side": "bullish",
-   "confidence": "fresh",
-   "note": "closed above the range high of 389.15",
-   "timeframe": "15m",
-   "date": "2026-11-10",
-   "new": true
-  },
-  {
-   "tk": "EXIDEIND",
-   "pattern": "Breakout above range",
-   "side": "bullish",
-   "confidence": "fresh",
-   "note": "closed above the range high of 384.65",
-   "timeframe": "15m",
-   "date": "2026-11-10",
-   "new": true
-  },
-  {
-   "tk": "GALLANTT",
-   "pattern": "Breakout above range",
-   "side": "bullish",
-   "confidence": "fresh",
-   "note": "closed above the range high of 543.20",
-   "timeframe": "15m",
-   "date": "2026-11-10",
-   "new": true
-  },
   {
    "tk": "ADANIPORTS",
    "pattern": "Breakout above range",
@@ -186,11 +146,31 @@
    "new": false
   },
   {
+   "tk": "CIEINDIA",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 360.00",
+   "timeframe": "15m",
+   "date": "2026-11-10",
+   "new": false
+  },
+  {
    "tk": "CANBK",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
    "note": "closed above the range high of 128.00",
+   "timeframe": "15m",
+   "date": "2026-11-10",
+   "new": false
+  },
+  {
+   "tk": "CHAMBLFERT",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 389.15",
    "timeframe": "15m",
    "date": "2026-11-10",
    "new": false
@@ -296,6 +276,16 @@
    "new": false
   },
   {
+   "tk": "EXIDEIND",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 384.65",
+   "timeframe": "15m",
+   "date": "2026-11-10",
+   "new": false
+  },
+  {
    "tk": "NYKAA",
    "pattern": "Breakout above range",
    "side": "bullish",
@@ -341,6 +331,16 @@
    "side": "bullish",
    "confidence": "fresh",
    "note": "closed above the range high of 99.33",
+   "timeframe": "15m",
+   "date": "2026-11-10",
+   "new": false
+  },
+  {
+   "tk": "GALLANTT",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 543.20",
    "timeframe": "15m",
    "date": "2026-11-10",
    "new": false

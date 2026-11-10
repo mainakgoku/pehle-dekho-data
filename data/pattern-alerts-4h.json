@@ -1,50 +1,10 @@
 {
- "generated": "2026-11-10T04:25:05.305686Z",
+ "generated": "2026-11-10T05:26:29.608695Z",
  "timeframe": "4h",
  "label": "4-hour",
  "scanned": 520,
  "failed": 5,
  "alerts": [
-  {
-   "tk": "NSLNISP",
-   "pattern": "Breakout above range",
-   "side": "bullish",
-   "confidence": "fresh",
-   "note": "closed above the range high of 40.42",
-   "timeframe": "4h",
-   "date": "2026-11-10",
-   "new": true
-  },
-  {
-   "tk": "NATIONALUM",
-   "pattern": "Breakout above range",
-   "side": "bullish",
-   "confidence": "fresh",
-   "note": "closed above the range high of 328.80",
-   "timeframe": "4h",
-   "date": "2026-11-10",
-   "new": true
-  },
-  {
-   "tk": "RVNL",
-   "pattern": "Breakout above range",
-   "side": "bullish",
-   "confidence": "fresh",
-   "note": "closed above the range high of 201.30",
-   "timeframe": "4h",
-   "date": "2026-11-10",
-   "new": true
-  },
-  {
-   "tk": "UCOBANK",
-   "pattern": "Breakout above range",
-   "side": "bullish",
-   "confidence": "fresh",
-   "note": "closed above the range high of 24.02",
-   "timeframe": "4h",
-   "date": "2026-11-10",
-   "new": true
-  },
   {
    "tk": "ADANIGREEN",
    "pattern": "Breakout above range",
@@ -706,11 +666,31 @@
    "new": false
   },
   {
+   "tk": "NSLNISP",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 40.42",
+   "timeframe": "4h",
+   "date": "2026-11-10",
+   "new": false
+  },
+  {
    "tk": "NTPC",
    "pattern": "Breakout above range",
    "side": "bullish",
    "confidence": "fresh",
    "note": "closed above the range high of 325.85",
+   "timeframe": "4h",
+   "date": "2026-11-10",
+   "new": false
+  },
+  {
+   "tk": "NATIONALUM",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 328.80",
    "timeframe": "4h",
    "date": "2026-11-10",
    "new": false
@@ -801,6 +781,16 @@
    "side": "bullish",
    "confidence": "fresh",
    "note": "closed above the range high of 128.62",
+   "timeframe": "4h",
+   "date": "2026-11-10",
+   "new": false
+  },
+  {
+   "tk": "RVNL",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 201.30",
    "timeframe": "4h",
    "date": "2026-11-10",
    "new": false
@@ -931,6 +921,16 @@
    "side": "bullish",
    "confidence": "fresh",
    "note": "closed above the range high of 3115.40",
+   "timeframe": "4h",
+   "date": "2026-11-10",
+   "new": false
+  },
+  {
+   "tk": "UCOBANK",
+   "pattern": "Breakout above range",
+   "side": "bullish",
+   "confidence": "fresh",
+   "note": "closed above the range high of 24.02",
    "timeframe": "4h",
    "date": "2026-11-10",
    "new": false
